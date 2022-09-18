@@ -1,0 +1,77 @@
+<?php 
+
+  // ini_set('display_errors', 1);
+  // ini_set('display_startup_errors', 1);
+  // error_reporting(E_ERROR);
+  
+  require 'vendor/autoload.php';
+  use PHPMailer\PHPMailer\PHPMailer;
+  use PHPMailer\PHPMailer\SMTP;
+  use PHPMailer\PHPMailer\Exception;
+  $error = "";
+
+  function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $nombre, $telefono, $contenido_asunto, $contenido_html) {
+
+      global $error;
+      $host_smtp         = "smtp.gmail.com";
+      $login_smtp        = "leoarielgarcia87@gmail.com";
+      $password_smtp     = 'LiceoRC4';
+
+      $mail             = new PHPMailer();
+
+      // $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
+      $mail->isSMTP(); 
+      $mail->Host       = $host_smtp;
+      $mail->SMTPAuth   = true;
+      $mail->Username   = $login_smtp; // SMTP account username
+      $mail->Password   = $password_smtp;        // SMTP account password
+      $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+      $mail->Port       = 587;                    // set the SMTP port for the GMAIL server
+      $mail->Host       = $host_smtp; // sets the SMTP server
+
+      $mail->SetFrom($remitente_email, $nombre);
+      $mail->AddAddress($destinatario_email, $destinatario_nombre);
+      $mail->Subject    = $contenido_asunto;
+      $mail->MsgHTML($contenido_html);
+
+      $mail->isHTML(true);
+
+      if(!$mail->Send()) {
+        return false;
+      } else {
+        return true;
+      }
+  }
+
+  $destinatario_email = "leoarielgarcia87@gmail.com.com";
+  $destinatario_nombre = str_replace(array("\r","\n"), array(" "," ") , strip_tags(trim($_POST["nombre"])));
+  $remitente_email = $_POST["email"];
+  $remitente_nombre = "Leonardo Ariel Garcia";
+  $telefono = trim($_POST["telefono"]);
+  $contenido_asunto = "Asunto";
+  $nombre = str_replace(array("\r","\n"), array(" "," ") , strip_tags(trim($_POST["nombre"])));
+  $enviado = false;
+  $cuerpo = "";
+  $cuerpo .= "
+  <h4>Solicitud Información</h4><br/>
+  <ul>
+      <li>Nombre : ". $_POST["nombre"] . "</li>
+      <li>Email : ". $_POST["email"] . "</li>
+      <li>Telefono : ". $_POST["telefono"] . "</li>
+      <li>Comentarios : ". $_POST["mensaje"] . "</li>
+  ";
+
+
+  $contenido_asunto = $_POST["nombre"] . " ha enviado un mensaje en la web";
+
+  $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $nombre, $telefono, $contenido_asunto, $cuerpo);  
+  
+
+  if($enviado){
+      echo 'si';
+  } else {
+      echo 'no';
+  }
+  
+?>
+ 
