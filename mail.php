@@ -15,11 +15,11 @@ function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remiten
 
     $host_smtp         = "smtp.gmail.com";
     $login_smtp        = "leoarielgarcia87@gmail.com";
-    $password_smtp     = 'LiceoRC4';
+    $password_smtp     = 'ikexuwjasbblvmru';
 
     $mail             = new PHPMailer();
 
-    // $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
+    //  $mail->SMTPDebug = 2; 
     $mail->isSMTP(); 
  
     $mail->Host       = $host_smtp;
@@ -58,20 +58,23 @@ $cuerpo .= "
 <ul>
     <li>Nombre : ". $_POST["nombre"] . "</li>
     <li>Email : ". $_POST["email"] . "</li>
+    <li>Telefono : ". $_POST["telefono"] . "</li>
     <li>Comentarios : ". $_POST["mensaje"] . "</li>
 ";
 
 
 
 
-$contenido_asunto = $_POST["nombre"] . " ha enviado un mensaje en Leonardo Scandura";
+$contenido_asunto = $cuerpo . "este mensaje fue enviado en la web";
 $destinatario_email     =    "leoarielgarcia87@gmail.com";
 $destinatario_nombre     =    "Leonardo Scandura";
 
 $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $email, $nombre, $contenido_asunto, $cuerpo);
+echo $cuerpo;
+echo $enviado;
 echo ($enviado);
  if($enviado){
-     echo 1;
+    header("Location: enviado.php");
  } else {
      echo 0;
  }

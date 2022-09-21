@@ -1,10 +1,12 @@
-<div class="container py-5">
+<div class="container py-5"id="contacto">
     <div class="row">
         
         <div class="col-12 col-lg-6"><img src="assets/img/foto-contacto.jpg" alt="Leonardo Scandura" class="img-fluid"></div>
         <div class="col-12 col-lg-6">
-        <h2 class="h2-contacto">Contacto</h2>
-        <p class="p-contacto">No dudes en contactarme para pedirme presupuesto o cualquier duda que tengas</p>
+        <h2 class="h2-contacto">Ponte en contacto conmigo !!!</h2>
+        <p class="p-contacto"> 
+
+Si quieres pedir un presupuesto personalizado o quieres realizar cualquier consulta puedes contactar conmigo rellenando el formulario de contacto que aparece abajo, indicando con el máximo detalle que puedas los servicios que necesitas e intentaré responder lo antes posible.</p>
         <form id="form" method="post" action="mail.php" onsubmit="false">
         <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
