@@ -70,7 +70,7 @@
                             </h2>
                             <img src="assets/img/drasaavedra.png" alt="GarsiaGroup" class="img-fluid m-auto">
                             <p class="text-white p-portfolio fs-6 px-3">Pagina web de una doctora que ofrece sus servicios personalizados. Esta web tiene muy trabajo de diseño sobre todo con las tarjetas de cada servicio que da.</p></a>
-                            <a class="learn-more" target="blank" href="construccion.php">
+                            <a class="learn-more" target="blank" href="https://drasaavedra.com/es/">
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow "></span>
                                 </span>

@@ -97,8 +97,8 @@
                             <h2 class="titulo-card text-center">
                                 Dra. Saavedra
                             </h2>
-                            <a target="blank" href="construccion.php"><img src="assets/img/drasaavedra.png" alt="GarsiaGroup" class="img-fluid m-auto"></a>
-                            <a class="learn-more" target="blank" href="construccion.php">
+                            <a target="blank" href="https://drasaavedra.com/es/"><img src="assets/img/drasaavedra.png" alt="GarsiaGroup" class="img-fluid m-auto"></a>
+                            <a class="learn-more" target="blank" href="https://drasaavedra.com/es/">
                                 <span class="circle" aria-hidden="true">
                                     <span class="icon arrow "></span>
                                 </span>

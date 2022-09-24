@@ -8,12 +8,12 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav w-100 justify-content-around">
 
-                <a class="nav-link text-decoration-none text-white" href="index.php">Home</a>
-                <a class="nav-link text-decoration-none text-white" href="portfolio.php">Portfolio</a>
-                <a class="nav-link text-decoration-none text-white" href="#sobremi">Sobre mi</a>
-                <a class="nav-link text-decoration-none text-white" href="#contacto">Contacto</a>
+                <a class="nav-link text-decoration-none" href="index.php">Home</a>
+                <a class="nav-link text-decoration-none" href="portfolio.php">Portfolio</a>
+                <a class="nav-link text-decoration-none" href="#sobremi">Sobre mi</a>
+                <a class="nav-link text-decoration-none" href="#contacto">Contacto</a>
         
-                <a class="nav-link text-decoration-none text-white"href="assets/cv/CV Leonardo.docx">CV</a>
+                <a class="nav-link text-decoration-none"href="assets/cv/CV Leonardo.docx">CV</a>
             </div>
         </div>
         </div>

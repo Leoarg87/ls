@@ -4,8 +4,8 @@ $(document).ready(function(){
         lazyLoad: 'ondemand',
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
-        // autoplaySpeed: 2000,
+        autoplay: true,
+        autoplaySpeed: 2000,
         arrows:true,
         centerPadding: '20px',
         prevArrow: ('<a  class="slick-prev flechas"><i class="fa-solid fa-chevron-left"></i></a>'),
@@ -14,28 +14,43 @@ $(document).ready(function(){
             {
                 breakpoint: 992,
                 settings: {
-                  arrows: true,
-                  centerMode: false,
-                  centerPadding: '40px',
-                  slidesToShow: 1
+                  lazyLoad: 'ondemand',
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows:true,
+        centerPadding: '20px',
+        prevArrow: ('<a  class="slick-prev flechas"><i class="fa-solid fa-chevron-left"></i></a>'),
+        nextArrow:('<a class="slick-next flechas"><i class="fa-solid fa-chevron-right"></i></a>'),
                 }
               },
             {
               breakpoint: 768,
               settings: {
-                arrows: true,
-                centerMode: false,
-                centerPadding: '40px',
-                slidesToShow: 1
+                lazyLoad: 'ondemand',
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows:true,
+        centerPadding: '20px',
+        prevArrow: ('<a  class="slick-prev flechas"><i class="fa-solid fa-chevron-left"></i></a>'),
+        nextArrow:('<a class="slick-next flechas"><i class="fa-solid fa-chevron-right"></i></a>'),
               }
             },
             {
               breakpoint: 480,
               settings: {
-                arrows: false,
-                centerMode: false,
-                centerPadding: '40px',
-                slidesToShow: 1
+                lazyLoad: 'ondemand',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows:true,
+                centerPadding: '20px',
+                prevArrow: ('<a  class="slick-prev flechas"><i class="fa-solid fa-chevron-left"></i></a>'),
+                nextArrow:('<a class="slick-next flechas"><i class="fa-solid fa-chevron-right"></i></a>'),
               }
             }
           ]

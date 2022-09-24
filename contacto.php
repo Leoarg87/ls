@@ -2,7 +2,7 @@
     <div class="row">
         
         <div class="col-12 col-lg-6"><img src="assets/img/foto-contacto.jpg" alt="Leonardo Scandura" class="img-fluid"></div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 pt-5 pt-sm-0">
         <h2 class="h2-contacto">Ponte en contacto conmigo !!!</h2>
         <p class="p-contacto"> 
 

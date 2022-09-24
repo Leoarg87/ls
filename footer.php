@@ -1,25 +1,20 @@
-<div class="container pt-5 border-top">
+<div class="container pb-3 border-top">
     <div class="row">
-        <div class="col-4">
-            <p>Desarrollado por: Leonardo Ariel Scandura García</p>
-
-        </div>
-        <div class="col-4 d-flex justify-content-center gap-5 fs-3 ">
+       
+        <div class="col-6 col-md-4 d-flex justify-content-center gap-5 pt-5 fs-3 ">
             <a href="https://www.instagram.com/leoscan/" class="text-white"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://www.facebook.com/Leoscangar" class="text-white"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.linkedin.com/in/leonardo-ariel-scandura-garc%C3%ADa-30567691/" class="text-white"><i class="fa-brands fa-linkedin"></i></a>
         </div>
-        <div class="col-4 d-flex justify-content-center gap-5">
+        <div class="col-6 col-md-4 d-flex justify-content-center gap-5 pt-5">
             <a class="text-white"href="assets/cv/CV Leonardo.docx">Descargar mi Curriculum</a>
-            <a class="text-white"href="mailto:leoarielgarcia87@gmail.com">Enviame un email</a>
+            <a class="text-white"href="mailto:info@leoscandura.es">Enviame un email</a>
         </div>
-        <div class="col-12 d-flex justify-content-around pt-5 pb-3">
-            <a href="politica-privacidad.php">Política de privacidad</a>
-            <a href="politica-cookies.php">Política de cookies</a>
-            <a href="politica-privacidad.php">Terminos y condiciones</a>
-
+        <div class="col-12 col-md-4 pt-5 fs-6">
+            <p>Desarrollado por: Leonardo Ariel Scandura García</p>
 
         </div>
+        
     </div>
 </div>
 
