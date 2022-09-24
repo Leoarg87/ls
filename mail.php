@@ -13,9 +13,9 @@ function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remiten
 
     global $error;
 
-    $host_smtp         = "smtp.gmail.com";
-    $login_smtp        = "leoarielgarcia87@gmail.com";
-    $password_smtp     = 'ikexuwjasbblvmru';
+    $host_smtp         = "smtp.hostinger.com";
+    $login_smtp        = "info@leoscandura.es";
+    $password_smtp     = 'LiceoRC4.';
 
     $mail             = new PHPMailer();
 
@@ -49,7 +49,7 @@ $email    = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
 
 $mensaje  = trim($_POST["mensaje"]);
 //$to ='ns.desarrollo16@gmail.com';
-$to = 'leoarielgarcia87@gmail.com';
+$to = 'info@leoscandura.es';
 $enviado = false;
 
 $cuerpo = "";
@@ -66,7 +66,7 @@ $cuerpo .= "
 
 
 $contenido_asunto = $cuerpo . "este mensaje fue enviado en la web";
-$destinatario_email     =    "leoarielgarcia87@gmail.com";
+$destinatario_email     =    "info@leoscandura.es";
 $destinatario_nombre     =    "Leonardo Scandura";
 
 $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $email, $nombre, $contenido_asunto, $cuerpo);
