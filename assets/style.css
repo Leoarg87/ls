@@ -8,10 +8,11 @@ background-position: center;
 }
 .banner-2 {
   background-image: url("../assets/img/matrix-code.gif");
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 200px;
+  min-height: 400px;
   filter: grayscale(75%);
 }
 .banner-3 {
