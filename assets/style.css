@@ -189,3 +189,6 @@ a:hover .circle .icon.arrow {
   background: #fff;
   transform: translate(1rem, 0);
 }
+.CookieDeclaration {
+  display: none !important;
+}
