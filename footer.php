@@ -22,3 +22,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
+<script id="CookieDeclaration" src="https://consent.cookiebot.com/e72d2e3a-51ba-44d6-8446-58401f5fdb4b/cd.js" type="text/javascript" async></script>
