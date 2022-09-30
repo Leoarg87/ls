@@ -32,6 +32,8 @@ Si quieres pedir un presupuesto personalizado o quieres realizar cualquier consu
             <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Acepto la politica de privacidad</label>
+                <span class="msg-error error"></span>
+<div id="recaptcha" class="g-recaptcha" data-sitekey="6LfVDkQiAAAAAMRKEAqLxV9LeSX6lwCWyf2tjVUu"></div>
             </div>
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
