@@ -7,8 +7,9 @@ use PHPMailer\PHPMailer\Exception;
 require 'PHPMailer/src/Exception.php';
     require 'PHPMailer/src/PHPMailer.php';
     require 'PHPMailer/src/SMTP.php';
+    
 $error = "";
-
+$res =($_POST['g-recaptcha-response']);
 function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $nombre, $contenido_asunto, $contenido_html){
 
     global $error;
