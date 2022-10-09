@@ -1,5 +1,8 @@
 
 $(document).ready(function(){
+
+   // Call the function post_captcha
+   $res = post_captcha($_POST['g-recaptcha-response']);
     $('.carousel').slick({
         lazyLoad: 'ondemand',
         slidesToShow: 3,
