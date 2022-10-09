@@ -6,10 +6,9 @@
 <link rel="stylesheet" href="assets/style.css" media="screen">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/2ce2511c95.js" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e72d2e3a-51ba-44d6-8446-58401f5fdb4b" data-blockingmode="auto" type="text/javascript"></script>
-a
+<script async src='https://www.google.com/recaptcha/api.js?hl=es%27%3E</script> 
 
