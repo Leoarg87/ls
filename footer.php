@@ -7,7 +7,7 @@
             <a href="https://www.linkedin.com/in/leonardo-ariel-scandura-garc%C3%ADa-30567691/" class="text-white"><i class="fa-brands fa-linkedin"></i></a>
         </div>
         <div class="col-6 col-md-4 d-flex justify-content-center gap-5 pt-5">
-            <a class="text-white"href="assets/cv/CV Leonardo.docx">Descargar mi Curriculum</a>
+            <a class="text-white"href="assets/cv/CVLeonardo.docx">Descargar mi Curriculum</a>
             <a class="text-white"href="mailto:info@leoscandura.es">Enviame un email</a>
         </div>
         <div class="col-12 col-md-4 pt-5 fs-6">
