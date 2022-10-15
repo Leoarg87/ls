@@ -9,9 +9,9 @@
             <div class="navbar-nav w-100 justify-content-around">
 
                 <a class="nav-link text-decoration-none" href="index.php">Home</a>
-                <a class="nav-link text-decoration-none" href="portfolio.php">Portfolio</a>
-                <a class="nav-link text-decoration-none" href="#sobremi">Sobre mi</a>
-                <a class="nav-link text-decoration-none" href="#contacto">Contacto</a>
+                <a class="nav-link text-decoration-none" href="https://leoscandura.es/portfolio.php">Portfolio</a>
+                <a class="nav-link text-decoration-none" href="https://leoscandura.es/#sobremi">Sobre mi</a>
+                <a class="nav-link text-decoration-none" href="https://leoscandura.es/#contacto">Contacto</a>
         
                 <a class="nav-link text-decoration-none"href="assets/cv/CV Leonardo.docx">CV</a>
             </div>
