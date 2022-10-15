@@ -13,7 +13,7 @@
                 <a class="nav-link text-decoration-none" href="https://leoscandura.es/#sobremi">Sobre mi</a>
                 <a class="nav-link text-decoration-none" href="https://leoscandura.es/#contacto">Contacto</a>
         
-                <a class="nav-link text-decoration-none"href="assets/cv/CVLeonardo.docx">CV</a>
+                <a class="nav-link text-decoration-none"href="assets/cv/CVLeonardo.docx"download="assets/cv/CVLeonardo.docx">CV</a>
             </div>
         </div>
         </div>
