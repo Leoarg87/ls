@@ -54,4 +54,8 @@ $(document).ready(function(){
             }
           ]
     });
+    grecaptcha.reset(); 
+    var $captcha = $('#recaptcha'); 
+    responseCaptcha = grecaptcha.getResponse(); 
+    
   });
