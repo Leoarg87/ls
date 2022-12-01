@@ -55,7 +55,7 @@ $enviado = false;
 
 $cuerpo = "";
 $cuerpo .= "
-<h4>Solicitud Información</h4><br/>
+<h4>Solicitud Informacion</h4><br/>
 <ul>
     <li>Nombre : ". $_POST["nombre"] . "</li>
     <li>Email : ". $_POST["email"] . "</li>
