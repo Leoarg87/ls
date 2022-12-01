@@ -52,7 +52,9 @@ $mensaje  = trim($_POST["mensaje"]);
 //$to ='ns.desarrollo16@gmail.com';
 $to = 'info@leoscandura.es';
 $enviado = false;
+$header = 'From:'. $_POST["email"] . "\r\n" .
 
+'X-Mailer: PHP/' . phpversion();
 $cuerpo = "";
 $cuerpo .= "
 <h4>Solicitud Informacion</h4><br/>
@@ -70,7 +72,7 @@ $contenido_asunto = $cuerpo . "este mensaje fue enviado en la web";
 $destinatario_email     =    "info@leoscandura.es";
 $destinatario_nombre     =    "Leonardo Scandura";
 
-$enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $email, $nombre, $contenido_asunto, $cuerpo);
+$enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email,$header, $email, $nombre, $contenido_asunto, $cuerpo);
 echo $cuerpo;
 echo $enviado;
 echo ($enviado);
