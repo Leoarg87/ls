@@ -16,7 +16,7 @@ function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remiten
     global $error;
 
     $host_smtp         = "smtp.hostinger.com";
-    $login_smtp        = "info@leoscandura.es";
+    $login_smtp        = "hola@leoscandura.es";
     $password_smtp     = 'LiceoRC4.';
 
     $mail             = new PHPMailer();
@@ -51,7 +51,7 @@ $email    = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
 
 $mensaje  = trim($_POST["mensaje"]);
 //$to ='ns.desarrollo16@gmail.com';
-$to = 'info@leoscandura.es';
+$to = 'hola@leoscandura.es';
 $enviado = false;
 $header = 'From:'. $_POST["email"] . "\r\n" .
 
