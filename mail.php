@@ -79,6 +79,7 @@ echo $enviado;
 echo ($enviado);
  if($enviado){
     header("Location: enviado.php");
+    echo($cuerpo);
  } else {
      echo 0;
  }
