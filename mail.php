@@ -69,7 +69,7 @@ $cuerpo .= "
 
 
 $contenido_asunto = $cuerpo . "este mensaje fue enviado en la web";
-$destinatario_email     =    "info@leoscandura.es";
+$destinatario_email     =    "hola@leoscandura.es";
 $destinatario_nombre     =    "Leonardo Scandura";
 
 $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email,$header, $email, $nombre, $contenido_asunto, $cuerpo);
