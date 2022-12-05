@@ -49,8 +49,8 @@ $nombre   = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST
 $email    = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
 
 $mensaje  = trim($_POST["mensaje"]);
-//$to ='ns.desarrollo16@gmail.com';
-$to = 'hola@leoscandura.es';
+$to ='ns.desarrollo16@gmail.com';
+// $to = 'hola@leoscandura.es';
 $enviado = false;
 $header = 'From:'. $_POST["email"] . "\r\n" .
 
