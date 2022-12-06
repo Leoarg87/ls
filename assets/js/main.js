@@ -6,7 +6,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 2000,
         arrows:true,
-        centerPadding: '20px',
+        centerPadding: '30px',
         prevArrow: ('<a  class="slick-prev flechas"><i class="fa-solid fa-chevron-left"></i></a>'),
         nextArrow:('<a class="slick-next flechas"><i class="fa-solid fa-chevron-right"></i></a>'),
         responsive: [
@@ -19,7 +19,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 2000,
         arrows:true,
-        centerPadding: '20px',
+        centerPadding: '30px',
         prevArrow: ('<a  class="slick-prev flechas"><i class="fa-solid fa-chevron-left"></i></a>'),
         nextArrow:('<a class="slick-next flechas"><i class="fa-solid fa-chevron-right"></i></a>'),
                 }
@@ -33,7 +33,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 2000,
         arrows:true,
-        centerPadding: '20px',
+        centerPadding: '30px',
         prevArrow: ('<a  class="slick-prev flechas"><i class="fa-solid fa-chevron-left"></i></a>'),
         nextArrow:('<a class="slick-next flechas"><i class="fa-solid fa-chevron-right"></i></a>'),
               }
@@ -47,7 +47,7 @@ $(document).ready(function(){
                 autoplay: true,
                 autoplaySpeed: 2000,
                 arrows:true,
-                centerPadding: '20px',
+                centerPadding: '30px',
                 prevArrow: ('<a  class="slick-prev flechas"><i class="fa-solid fa-chevron-left"></i></a>'),
                 nextArrow:('<a class="slick-next flechas"><i class="fa-solid fa-chevron-right"></i></a>'),
               }

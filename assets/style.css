@@ -6,14 +6,40 @@ background-position: center;
   min-height: 200px;
   filter: grayscale(75%);
 }
-.banner-2 {
-  background-image: url("../assets/img/matrix-code.gif");
+/* .banner-2 {
+  background-vi: url("../assets/img/matrix-code.gif");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
   filter: grayscale(75%);
+} */
+.container-fluid{
+  z-index: 999;
+}
+#video{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}.bg-fondo{
+  background-color: lightgray;
+  opacity: 0.7;
+  object-fit: cover;
+  position: static;
+ width: 100vw;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
 .banner-3 {
     background-image: url("../assets/img/banner-3.jpg");
