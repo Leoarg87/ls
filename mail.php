@@ -1,3 +1,4 @@
+
 <?php 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -78,6 +79,7 @@ echo $enviado;
 echo ($enviado);
  if($enviado){
     header("Location: enviado.php");
+    echo($cuerpo);
  } else {
      echo 0;
  }
