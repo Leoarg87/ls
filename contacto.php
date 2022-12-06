@@ -1,7 +1,7 @@
 <div class="container py-5 mt-5 px-0" id="contacto">
     <div class="row">
 
-        <div class="col-12 col-lg-6 p-5 pt-0"><img src="assets/img/programming.jpg" alt="Leonardo Scandura" class="img-fluid"></div>
+        <div class="col-12 col-lg-6 p-5 pt-0"><img src="assets/img/foto-contacto.jpg" alt="Leonardo Scandura" class="img-fluid"></div>
         <div class="col-12 col-lg-6 pt-5 pt-sm-0 pe-0 pe-lg-5">
             <h2 class="h2-contacto">Ponte en contacto conmigo !!!</h2>
             <p class="p-contacto">
