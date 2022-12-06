@@ -180,7 +180,7 @@
     <div class="container-fluid banner-3">
     </div> -->
     
-hola
+
     <?php
     include 'footer.php';
     ?>
