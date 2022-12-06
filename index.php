@@ -39,7 +39,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-lg-6 p-5 m-auto">
-                    <img src="assets/img/banner-sobremi.jpg" alt="Sobre mi" class="img-fluid rounded" />
+                    <img src="assets/img/programmer.jpg" alt="Sobre mi" class="img-fluid rounded" />
                 </div>
             </div>
             <div class="row mt-5">
