@@ -13,10 +13,10 @@ $error = "";
 function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $nombre, $contenido_asunto, $contenido_html){
 
     global $error;
-
+    $paso ='LiceoRC4.';
     $host_smtp         = "smtp.hostinger.com";
     $login_smtp        = "hola@leoscandura.es";
-    $password_smtp     = 'LiceoRC4.';
+    $password_smtp     = $paso;
 
     $mail             = new PHPMailer();
 
