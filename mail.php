@@ -56,8 +56,8 @@ $enviado = false;
 $header = 'From:'. $_POST["email"] . "\r\n" .
 
 'X-Mailer: PHP/' . phpversion();
-$cuerpo = "";
-$cuerpo .= "
+
+$cuerpo = "
 <h4>Solicitud Informacion</h4><br/>
 <ul>
     <li>Nombre : ". $_POST["nombre"] . "</li>
