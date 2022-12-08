@@ -67,7 +67,7 @@
   </ul>
   ";
 
-
+  echo "no";
 $contenido_asunto = $_POST["nombre"] . " ha enviado un mensaje en la web leoscandura.es" . $cuerpo;
  
 
