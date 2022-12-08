@@ -74,7 +74,7 @@ $contenido_asunto = $_POST["nombre"] . " ha enviado un mensaje en la web leoscan
 $enviado = mail_phpmailer_2018($destinatario_email_1, $destinatario_nombre,$nombre, $remitente_email, $telefono, $contenido_asunto, $cuerpo);
 
   if($enviado){
-      echo "si";
+    header("Location: enviado.php");
   } else {
       echo "no";
   }
