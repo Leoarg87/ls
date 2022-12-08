@@ -114,6 +114,6 @@ $phpmailer->Body .= "<p>Fecha y Hora: ".date("d-m-Y h:i:s")."</p>";
 $phpmailer->IsHTML(true);
 
 $phpmailer->Send();
-
+echo "1";
 ?>
  
