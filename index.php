@@ -10,14 +10,14 @@
 
 <body class="">
     <div class="container px-0 ">
-        <video src="assets/img/video-matrix.mp4" id="video" width="100%" height="400" autoplay loop muted style="object-fit:cover"></video>
+        <video src="assets/img/video-matrix.mp4" id="video" width="100%" height="400" class="d-none d-sm-block"autoplay loop muted style="object-fit:cover"></video>
     </div>
     <!-- <div class="container-fluid banner-head"></div> -->
     <?php
     include 'menu.php';
     ?>
 
-    <div class="container-fluid" id="sobremi">
+    <div class="container-fluid px-0 px-lg-3" id="sobremi">
         <div class="container bg-dark py-5">
             <div class="row pb-5">
                 <div class="col-12 ">
