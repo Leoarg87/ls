@@ -53,6 +53,7 @@ $mensaje  = trim($_POST["mensaje"]);
 $to = 'hola@leoscandura.es';
 $enviado = false;
 $header = 'From:'. $_POST["email"] . "\r\n" .
+$header = 'title:'. $_POST["nombre"] . "\r\n" .
 
 
 $cuerpo = "";
