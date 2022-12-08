@@ -77,7 +77,7 @@ echo $cuerpo;
 echo $enviado;
 echo ($enviado);
  if($enviado){
-  echo 1;
+    header("Location: enviado.php");
  } else {
      echo 0;
  }
