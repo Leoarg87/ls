@@ -32,7 +32,7 @@ function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remiten
     $mail->Host       = $host_smtp; // sets the SMTP server
     $mail->From =  $_POST["email"];
     $mail->FromName = $_POST["nombre"];
-    $mail->SetFrom($remitente_email, $nombre);
+    
     $mail->AddAddress($destinatario_email, $destinatario_nombre);
     $mail->Subject    = $contenido_asunto;
     $mail->MsgHTML($contenido_html);
