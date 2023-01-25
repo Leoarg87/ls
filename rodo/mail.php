@@ -72,6 +72,7 @@ $cuerpo .= "
 $contenido_asunto = $_POST["nombre"] . " ha enviado un mensaje desde la web";
 $destinatario_email     =    "leoarielgarcia87@gmail.com";
 $destinatario_nombre     =    "Rodo Eventos";
+$remitente_email =$_POST["email"];
 
 $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $email, $nombre, $contenido_asunto, $cuerpo);
 echo $cuerpo;
