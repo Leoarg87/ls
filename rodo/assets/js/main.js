@@ -210,6 +210,8 @@ $('.opiniones').slick({
                     text: "Algo salió mal. Revisa la conexión a internet y vuelve a intentarlo nuevamente.",
                 });
             
-        });
-    }
+        },
+        
+    });
+}
 });
