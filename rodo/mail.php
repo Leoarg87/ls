@@ -53,10 +53,6 @@ $mensaje  = trim($_POST["mensaje"]);
 //$to ='ns.desarrollo16@gmail.com';
 $to = 'leoarielgarcia87@gmail.com';
 $enviado = false;
-$header = 'From:'. $_POST["email"] . "\r\n" .
-$header = 'FromName:'. $_POST["nombre"] . "\r\n" .
-
-
 $cuerpo = "";
 $cuerpo .= "
 <h4>Solicitud Informacion en la web</h4><br/>
