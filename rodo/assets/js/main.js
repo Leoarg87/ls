@@ -189,6 +189,7 @@ $('.opiniones').slick({
         });
         $("#mensaje").focus();
     } else {
+        console.log("aqui")
         $.ajax({
             type: "POST",
             url: "../mail.php",
