@@ -195,22 +195,20 @@ $('.opiniones').slick({
             url: "../mail.php",
             data: $("#form-contacto").serialize(),
             success: function(data) {
-                
-                if (parseInt(data)) {
-                    Swal.fire({
-                        icon: "success",
-                        title: "GRACIAS",
-                        text: "El formulario se envió exitosamente. En breve se contactarán contigo",
-                    });
-                    $("#form-contacto").trigger("reset");
-                } else {
-                    Swal.fire({
-                        icon: "error",
-                        title: "ERROR",
-                        text: "Algo salió mal. Revisa la conexión a internet y vuelve a intentarlo nuevamente.",
-                    });
-                }
+                console.log(data);
+                Swal.fire({
+                    icon: "success",
+                    title: "GRACIAS",
+                    text: "El formulario se envió exitosamente. Un agente se contactará contigo a la brevedad",
+                });
+                $("#form-contacto").trigger("reset");
             },
+            error: function(request, error) {
+                Swal.fire({
+                    icon: "error",
+                    title: "ERROR",
+                    text: "Algo salió mal. Revisa la conexión a internet y vuelve a intentarlo nuevamente.",
+                });
             
         });
     }
