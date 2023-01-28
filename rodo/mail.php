@@ -30,9 +30,8 @@ function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remiten
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;                    // set the SMTP port for the GMAIL server
     $mail->Host       = $host_smtp; // sets the SMTP server
-    $mail->From =  $_POST["email"];
-    $mail->FromName = $_POST["nombre"];
-    
+
+    $mail->SetFrom($remitente_email, $nombre);
     $mail->AddAddress($destinatario_email, $destinatario_nombre);
     $mail->Subject    = $contenido_asunto;
     $mail->MsgHTML($contenido_html);
@@ -47,12 +46,15 @@ function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remiten
 }
 
 $nombre   = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["nombre"])));
-$email    = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+$remitente_email    = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
 
 $mensaje  = trim($_POST["mensaje"]);
 //$to ='ns.desarrollo16@gmail.com';
 $to = 'leoarielgarcia87@gmail.com';
 $enviado = false;
+
+
+
 $cuerpo = "";
 $cuerpo .= "
 <h4>Solicitud Informacion en la web</h4><br/>
@@ -69,7 +71,6 @@ $cuerpo .= "
 $contenido_asunto = $_POST["nombre"] . " ha enviado un mensaje desde la web";
 $destinatario_email     =    "leoarielgarcia87@gmail.com";
 $destinatario_nombre     =    "Rodo Eventos";
-$remitente_email =$_POST["email"];
 
 $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $email, $nombre, $contenido_asunto, $cuerpo);
 echo $cuerpo;

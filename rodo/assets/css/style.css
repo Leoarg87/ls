@@ -231,7 +231,7 @@ top: 1px;
   object-fit: cover;
 }
 .img-slick-1:hover{
-  transform:scale(1.2)
+  transform:scale(1.1)
 }
 .slick-slide img{
   display:flex !important;
@@ -642,6 +642,9 @@ justify-content: center;
 }
 
 @media (max-width: 767px) {
+  .sticky-top {
+    background-color: rgb(209, 180, 170);
+}
     .banner-home{
         right: inherit;
     }

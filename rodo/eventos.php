@@ -108,7 +108,7 @@
                 <h2 class="h2-banner-solicita">Solicita nuestro pack para de eventos </h2>
                 <hr class="hr-pack">
                 <h4 class="h4-banner-solicita">Haz de tu evento un dia inolvidable</h4>
-                <a href="https://wa.me//+34626250105" class="btn reservar mx-auto mt-3">Reservar ahora</a>
+                <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto mt-3">Reservar ahora</a>
             </div>
 
 
@@ -175,7 +175,7 @@
                 </ul>
             </div>
             <div class="col-12 col-md-4 mx-auto d-flex">
-            <a href="https://wa.me//+34626250105" class="btn reservar mx-auto mt-3">Consultanos</a>
+            <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto mt-3">Consultanos</a>
             </div>
            
         </div>

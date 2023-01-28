@@ -158,7 +158,7 @@
                                                         <img src="assets/img/coches/mercedes-c4.jpeg" class="img-fluid rounded object-fit-cover w-100" alt="">
                                                     </div>
                                                     <div class="col-12 my-3 col-lg-3 mx-auto mt-lg-3 d-flex justify-content-center">
-                                                        <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto">Descúbrelo</a>
+                                                        <a href="https://wa.me//+34626250105" target="blank" target="blank" class="btn reservar mx-auto">Descúbrelo</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -195,7 +195,7 @@
                                                         <img src="assets/img/coches/spider4.jpeg" class="img-fluid rounded object-fit-cover w-100" alt="">
                                                     </div>
                                                     <div class="col-12 my-3 col-lg-3 mx-auto mt-lg-3 d-flex justify-content-center">
-                                                        <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto">Descúbrelo</a>
+                                                        <a href="https://wa.me//+34626250105" target="blank" target="blank" class="btn reservar mx-auto">Descúbrelo</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -228,7 +228,7 @@
                                                         <img src="assets/img/coches/mini5.jpeg" class="img-fluid rounded object-fit-cover w-100" alt="">
                                                     </div>
                                                     <div class="col-12 my-3 col-lg-3 mx-auto mt-lg-3 d-flex justify-content-center">
-                                                        <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto">Descúbrelo</a>
+                                                        <a href="https://wa.me//+34626250105" target="blank" target="blank" class="btn reservar mx-auto">Descúbrelo</a>
                                                     </div>
                                                 </div>
                                             </div>

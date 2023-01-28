@@ -18,7 +18,7 @@
             <h2 class="h1">Grandes <span>Momentos</span></h2>
             <h2 class="h1">Grandes <span>Recuerdos</span></h2>
             <p>La vida es la suma de los instantes que nunca olvidamos</p>
-            <a href="https://wa.me//+34626250105" class="btn reservar mx-auto">Reserva Ahora</a>
+            <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto">Reserva Ahora</a>
         </div>
 
         <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -68,27 +68,27 @@
     <div class="container-fluid py-3 py-lg-5">
         <div class="row">
             <div class="carousel-slick">
-                <a class="text-decoration-none" href="/servicios.php#fotomaton360">
+                <a class="text-decoration-none fotomaton360" href="servicios.php#fotomaton360">
                     <img src="assets/img/360.png" class="img-slick-1" alt="">
                     <h2 class="h2-carousel">Fotomatón <br> 360<sup>º</sup></h2>
                 </a>
-                <a class="text-decoration-none" href="/servicios.php#fotomaton">
+                <a class="text-decoration-none fotomaton" href="servicios.php#fotomaton">
                     <img src="assets/img/fotomaton.png" class="img-slick-1" alt="">
                     <h2 class="h2-carousel">Fotomatón</h2>
                 </a>
-                <a class="text-decoration-none" href="/servicios.php#candybar">
+                <a class="text-decoration-none candybar" href="servicios.php#candybar">
                     <img src="assets/img/chuches.png" class="img-slick-1" alt="">
                     <h2 class="h2-carousel">Candy Bar</h2>
                 </a>
-                <a class="text-decoration-none" href="/servicios.php#cochesclasicos">
+                <a class="text-decoration-none cochesclasicos" href="servicios.php#cochesclasicos">
                     <img src="assets/img/coche.png" class="img-slick-1" style="min-height:150px;width:200px" alt="">
                     <h2 class="h2-carousel">Coches clásicos</h2>
                 </a>
-                <a class="text-decoration-none" href="/servicios.php#shisas">
+                <a class="text-decoration-none shisas" href="servicios.php#shisas">
                     <img src="assets/img/shisha.png" class="img-slick-1" alt="">
                     <h2 class="h2-carousel">Shishas & Vapers</h2>
                 </a>
-                <a class="text-decoration-none" href="/servicios.php#neones">
+                <a class="text-decoration-none neones" href="servicios.php#neones">
                     <img src="assets/img/neon.png" class="img-slick-1" style="min-height:150px;width:200px" alt="">
                     <h2 class="h2-carousel">Neones </h2>
                 </a>
@@ -213,7 +213,7 @@
                 <h2 class="h2-banner-solicita">Solicita nuestro pack para boda y eventos</h2>
                 <hr class="hr-pack">
                 <h4 class="h4-banner-solicita">Haz de tu boda un dia inolvidable</h4>
-                <a href="https://wa.me//+34626250105" class="btn reservar mx-auto mt-3">Reservar ahora</a>
+                <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto mt-3">Reservar ahora</a>
             </div>
 
 
@@ -301,7 +301,11 @@
 
     <div class="container py-5">
         <div class="row">
+        <div class="col-6 d-flex mx-auto justify-content-center">
+                    <h2 class="titulo2 my-5">Opiniones de nuestros clientes</h2>
+                </div>
             <div class="opiniones">
+                
                 <div class="mx-4">
                     <div class="card card-opiniones">
                         <div class="d-flex mt-3 justify-content">
@@ -408,13 +412,16 @@
     <!-- SnapWidget -->
 
     <div class="container">
+    <h2 class="titulo2 mb-5">Siguenos en instagram</h2>
         <div class="d-lg-flex d-none ">
+            
             <!-- SnapWidget -->
             <script src="https://snapwidget.com/js/snapwidget.js"></script>
             <iframe src="https://snapwidget.com/embed/1021193" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:70%;margin:0 auto "></iframe>
         </div>
 
     </div>
+    
 
     <?php
     include 'inc/contacto.php';

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg sticky-top py-0">
 <div class="container">
-<a class="navbar-brand py-0" href="#"><img src="assets/img/logo-transparente.png" alt="Rodo Eventos"class="img-fluid logo d-block d-lg-none"></a>
+<a class="navbar-brand py-0" href="index.php"><img src="assets/img/logo-transparente.png" alt="Rodo Eventos"class="img-fluid logo d-block d-lg-none"></a>
     <button class="navbar-toggler more_button" id="more_button"type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <div class="menu_icon_wrapper normal" id="menu_wrapper">
                     <div class="menu-icon-line half first"></div>
