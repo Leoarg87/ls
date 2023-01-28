@@ -23,7 +23,7 @@ function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remiten
 
     //  $mail->SMTPDebug = 2; 
     $mail->isSMTP(); 
- 
+    $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
     $mail->Host       = $host_smtp;
     $mail->SMTPAuth   = true;
     $mail->Username   = $login_smtp; // SMTP account username
@@ -31,7 +31,10 @@ function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remiten
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;                    // set the SMTP port for the GMAIL server
     $mail->Host       = $host_smtp; // sets the SMTP server
-
+    $mail->SetFrom($remitente_email, $nombre);
+    $mail->AddAddress($destinatario_email, $destinatario_nombre);
+    $mail->Subject    = $contenido_asunto;
+    $mail->MsgHTML($contenido_html);
     
 
     $mail->isHTML(true);
@@ -68,12 +71,9 @@ $cuerpo .= "
 $contenido_asunto = $_POST["nombre"] . " ha enviado un mensaje desde la web";
 $destinatario_email     =    "leoarielgarcia87@gmail.com";
 $destinatario_nombre     =    "Rodo Eventos";
-$mail->SetFrom($remitente_email, $nombre);
-    $mail->AddAddress($destinatario_email, $destinatario_nombre);
-    $mail->Subject    = $contenido_asunto;
-    $mail->MsgHTML($contenido_html);
+
 $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $email, $nombre, $contenido_asunto, $cuerpo);
-echo ($enviado);
+
  if($enviado){
     echo 1;
  } else {
