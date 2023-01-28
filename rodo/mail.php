@@ -51,7 +51,7 @@ print_r("aqui");
             $mail->AddAddress('leoarielgarcia87@gmail.com', 'Rodo');
             $mail->Subject    = "Solicitud de contacto desde la WEB";
             $mail->AltBody    = $contenido_plain; // optional, comment out and test
-            $mail->MsgHTML($mensaje);
+            $mail->MsgHTML($contenido_plain);
     
             $exito = $mail->Send(); // EnvÃ­a el correo.
     
