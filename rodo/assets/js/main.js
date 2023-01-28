@@ -194,7 +194,7 @@ $('.opiniones').slick({
             url: "https://leoscandura.es/rodo/mail.php",
             data: $("#form-contacto").serialize(),
             success: function(data) {
-                console.log("js")
+                console.log(data)
                 if (parseInt(data)) {
                     Swal.fire({
                         icon: "success",
