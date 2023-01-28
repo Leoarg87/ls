@@ -194,7 +194,7 @@ $('.opiniones').slick({
             url: "https://leoscandura.es/rodo/mail.php",
             data: $("#form-contacto").serialize(),
             success: function(data) {
-                
+                console.log("js")
                 if (parseInt(data)) {
                     Swal.fire({
                         icon: "success",
@@ -210,13 +210,7 @@ $('.opiniones').slick({
                     });
                 }
             },
-            error: function(request, error) {
-                Swal.fire({
-                    icon: "error",
-                    title: "ERROR",
-                    text: "Algo salió mal. Revisa la conexión a internet y vuelve a intentarlo nuevamente.",
-                });
-            },
+           
         });
     }
 });
