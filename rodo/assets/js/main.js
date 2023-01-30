@@ -194,7 +194,7 @@ $('.opiniones').slick({
             url: "../mail.php",
             data: $("#form-contacto").serialize(),
             success: function(data) {
-                
+                console.log("aqui")
                 if (parseInt(data)) {
                     Swal.fire({
                         icon: "success",

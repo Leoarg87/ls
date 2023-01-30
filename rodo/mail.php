@@ -17,7 +17,8 @@ function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remiten
     $host_smtp         = "smtp.hostinger.com";
     $login_smtp        = "hola@leoscandura.es";
     $password_smtp     = $paso;
-
+    $nombre   = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["nombre"])));
+    $email    = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
     $mail             = new PHPMailer();
 
     //  $mail->SMTPDebug = 2; 
@@ -45,8 +46,7 @@ function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remiten
     }
 }
 
-$nombre   = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["nombre"])));
-$email    = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+
 
 $mensaje  = trim($_POST["mensaje"]);
 //$to ='ns.desarrollo16@gmail.com';
