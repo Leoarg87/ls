@@ -72,8 +72,8 @@
   
   $remitente_email = $_REQUEST["email"];
   $remitente_nombre = $_REQUEST["nombre"];
-
-  $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $remitente_nombre, $contenido_asunto, $cuerpo);
+print_r($remitente_email,$destinatario_email);
+  $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $remitente_nombre, $contenido_asunto, $contenido_html);
   echo $enviado;
-  print_r($enviado);
+  
 ?>
