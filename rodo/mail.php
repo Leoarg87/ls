@@ -1,5 +1,4 @@
  <?php
-    print_r("aqui");
     ini_set('display_errors', 1);
     error_reporting(E_ALL & ~E_NOTICE);
 
@@ -9,6 +8,7 @@
     use PHPMailer\PHPMailer\Exception;
     use PHPMailer\PHPMailer\SMTP;
 
+
     $paso = 'LiceoRC4.';
     $host_smtp         = "smtp.hostinger.com";
     $login_smtp        = "hola@leoscandura.es";
@@ -17,15 +17,14 @@
     $email_cliente = $_REQUEST["email"];
     $mail             = new PHPMailer();
 
-
+    $email_cliente = $_REQUEST["email"];
 
     $mensaje .= "
-        <h4>El usuario: " . $_POST["nombre"] . " desea contactarnos. </h4><br/>
-            <li>Correo : " . $_POST["email"] . "</li>
-            <li>Telefono : " . $_POST["telefono"] . "</li>
-            <li>Mensaje : " . $_POST["mensaje"] . "</li>
-        ";
-
+    <h4>El usuario: " . $_POST["nombre"] . " </h4><br/>
+        <li>Correo : " . $_POST["email"] . "</li>
+        <li>Telefono : " . $_POST["telefono"] . "</li>
+        <li>Mensaje : " . $_POST["comentarios"] . "</li>
+    ";
     $enviar = true;
 
 
@@ -46,7 +45,7 @@
         $mail->Port       = 465;                    // set the SMTP port for the GMAIL server
         $mail->Host       = $host_smtp; // sets the SMTP server
 
-        $mail->SetFrom('$email_cliente', 'leo');
+        $mail->SetFrom($email_cliente);
         // $mail->AddAddress("info@jayle.es", "JAYLE");
         $mail->AddAddress('leoarielgarcia87@gmail.com', 'Rodo');
         $mail->Subject    = "Solicitud de contacto desde la WEB";
@@ -61,3 +60,4 @@
         echo 1;
     }
     ?>
+   
