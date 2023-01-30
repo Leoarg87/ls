@@ -36,7 +36,7 @@
                     <label class="form-check-label" for="exampleCheck1">Acepto la politica de privacidad</label>
                     <span class="msg-error error"></span>
                     <div id="recaptcha" class="g-recaptcha" data-sitekey="6LdwAYIiAAAAABzB02TUCn-ZrvX_Kenuc3Cwz0ca"></div>
-                    <button id="btn-form" class="btn btn-enviar mt-3 mt-lg-0">Enviar</button>
+                    <button type="submit"id="btn-form" class="btn btn-enviar mt-3 mt-lg-0">Enviar</button>
                 </div>
                
             </form>
