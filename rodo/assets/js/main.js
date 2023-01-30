@@ -193,9 +193,11 @@ $('.opiniones').slick({
             type: "POST",
             url: "../mail.php",
             data: $("#form-contacto").serialize(),
+            
             success: function(data) {
 
                 if (parseInt(data)) {
+                    console.log(data),
                     Swal.fire({
                         icon: "success",
                         title: "GRACIAS",
