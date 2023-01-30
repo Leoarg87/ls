@@ -46,7 +46,7 @@ print_r("aqui");
             $mail->Port       = 465;                    // set the SMTP port for the GMAIL server
             $mail->Host       = $host_smtp; // sets the SMTP server
             
-            $mail->SetFrom('email_cliente', 'leo');
+            $mail->SetFrom('$email_cliente', 'leo');
             // $mail->AddAddress("info@jayle.es", "JAYLE");
             $mail->AddAddress('leoarielgarcia87@gmail.com', 'Rodo');
             $mail->Subject    = "Solicitud de contacto desde la WEB";
