@@ -3,7 +3,7 @@
   // ini_set('display_startup_errors', 1);
   // error_reporting(E_ERROR);
   
-  require '../../vendor/autoload.php';
+  require '../vendor/autoload.php';
   
   use PHPMailer\PHPMailer\PHPMailer;
   use PHPMailer\PHPMailer\SMTP;
@@ -13,10 +13,10 @@
   function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $nombre, $contenido_asunto, $contenido_html){
 
       global $error;
-      $paso ='LiceoRC4.';
-      $host_smtp         = "smtp.hostinger.com";
-      $login_smtp        = "hola@leoscandura.es";
-      $password_smtp     = $paso;
+$paso ='LiceoRC4.';
+    $host_smtp         = "smtp.hostinger.com";
+    $login_smtp        = "hola@leoscandura.es";
+    $password_smtp     = $paso;
 
       // $host_smtp 		  = "smtp.ionos.es";
       // $login_smtp		  = "info@jayle.es";
@@ -26,7 +26,7 @@
 
       $mail->isSMTP(); 
       $mail->Host       = $host_smtp;
-      $mail->SMTPDebug  = 2;
+      $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
       $mail->SMTPAuth   = true;
       $mail->Username   = $login_smtp; // SMTP account username
       $mail->Password   = $password_smtp;        // SMTP account password
@@ -59,21 +59,21 @@
   <ul>
       <li>Nombre : ". $_REQUEST["nombre"] . "</li>
       <li>Email : ". $_REQUEST["email"] . "</li>
-      <li>telefono : ". $_REQUEST["telefono"] . "</li>
+      <li>Telefono : ". $_REQUEST["telefono"] . "</li>
       <li>Mensaje : ". $_REQUEST["mensaje"] . "</li>
   ";
 
-  $contenido_asunto = $_REQUEST["nombre"] . " ha enviado un mensaje en Rodo web";
+  $contenido_asunto = $_REQUEST["nombre"] . " ha enviado un mensaje en Guinda Spa";
   
-  
-  $destinatario_email = "leoarielgarcia87@gmail.com";
-  $destinatario_nombre = "Rodo";
-  $contenido_html= $cuerpo;
-  
-  $remitente_email = $_REQUEST["email"];
-  $remitente_nombre = $_REQUEST["nombre"];
-print_r($remitente_email,$destinatario_email);
-  $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $remitente_nombre, $contenido_asunto, $contenido_html);
+  // $destinatario_email = "info@guindaspa.es";
+  $destinatario_email = "ns.desarrollo16@gmail.com";
+  $destinatario_nombre = "GuindaSpa";
+
+  //$remitente_email = "ns.desarrollo16@gmail.com";
+  $remitente_email = "ns.desarrollo16@gmail.com";
+  $remitente_nombre = "GuindaSpa";
+
+  $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $remitente_nombre, $contenido_asunto, $cuerpo);
   echo $enviado;
-  
+
 ?>
