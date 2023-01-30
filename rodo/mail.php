@@ -75,5 +75,5 @@
 
   $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $remitente_nombre, $contenido_asunto, $cuerpo);
   echo $enviado;
-
+  print_r($enviado);
 ?>
