@@ -33,7 +33,8 @@
     }
 
     if ($enviar) {
-        $contenido_plain = $mensaje;
+    
+    
 
         $mail->isSMTP();
         $mail->Host       = $host_smtp;
@@ -49,8 +50,8 @@
         // $mail->AddAddress("info@jayle.es", "JAYLE");
         $mail->AddAddress('leoarielgarcia87@gmail.com', 'Rodo');
         $mail->Subject    = "Solicitud de contacto desde la WEB";
-        $mail->AltBody    = $contenido_plain; // optional, comment out and test
-        $mail->MsgHTML($contenido_plain);
+        $mail->AltBody    = $mensaje; // optional, comment out and test
+        $mail->MsgHTML($mensaje);
 
         $exito = $mail->Send(); // EnvÃ­a el correo.
 
