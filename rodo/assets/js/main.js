@@ -191,7 +191,7 @@ $('.opiniones').slick({
     } else {
         $.ajax({
             type: "POST",
-            url: "var/www/html/mail.php",
+            url: "../mail.php",
             data: $("#form-contacto").serialize(),
             success: function(data) {
                 console.log(data);
