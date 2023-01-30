@@ -66,7 +66,7 @@
   $contenido_asunto = $_REQUEST["nombre"] . " ha enviado un mensaje en Rodo web";
   
   
-  $destinatario_email = "ns.desarrollo16@gmail.com";
+  $destinatario_email = "leoarielgarcia87@gmail.com";
   $destinatario_nombre = "Rodo";
   $contenido_html= $cuerpo;
   
