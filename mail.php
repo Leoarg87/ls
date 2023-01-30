@@ -31,7 +31,7 @@ function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remiten
     $mail->Port       = 465;                    // set the SMTP port for the GMAIL server
     $mail->Host       = $host_smtp; // sets the SMTP server
 
-    $mail->SetFrom($remitente_email, $nombre);
+    $mail->SetFrom($email, $nombre);
     $mail->AddAddress($destinatario_email, $destinatario_nombre);
     $mail->Subject    = $contenido_asunto;
     $mail->MsgHTML($contenido_html);
@@ -73,7 +73,7 @@ $contenido_asunto = $cuerpo . "este mensaje fue enviado en la web";
 $destinatario_email     =    "hola@leoscandura.es";
 $destinatario_nombre     =    "Leonardo Scandura";
 
-$enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $email, $nombre, $contenido_asunto, $cuerpo);
+$enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre,  $email, $nombre, $contenido_asunto, $cuerpo);
 echo $cuerpo;
 echo $enviado;
 echo ($enviado);
