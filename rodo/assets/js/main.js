@@ -193,9 +193,9 @@ $('.opiniones').slick({
             type: "POST",
             url: "../mail.php",
             data: $("#form-contacto").serialize(),
-            
+         
             success: function(data) {
-                console.log("aqui");
+                console.log(data);
                 if (parseInt(data)) {
                   
                     Swal.fire({
