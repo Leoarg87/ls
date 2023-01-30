@@ -26,7 +26,7 @@
 
       $mail->isSMTP(); 
       $mail->Host       = $host_smtp;
-      $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
+      $mail->SMTPDebug  = 2;
       $mail->SMTPAuth   = true;
       $mail->Username   = $login_smtp; // SMTP account username
       $mail->Password   = $password_smtp;        // SMTP account password
@@ -66,9 +66,9 @@
   $contenido_asunto = $_REQUEST["nombre"] . " ha enviado un mensaje en Rodo web";
   
   
-  $destinatario_email = "leoarielgarcia87";
-  $destinatario_nombre = "GuindaSpa";
-
+  $destinatario_email = "hola@leoscandura.es";
+  $destinatario_nombre = "Rodo";
+  $contenido_html= $cuerpo;
   
   $remitente_email = $_REQUEST["email"];
   $remitente_nombre = $_REQUEST["nombre"];
