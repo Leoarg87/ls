@@ -13,11 +13,11 @@
     $host_smtp         = "smtp.hostinger.com";
     $login_smtp        = "hola@leoscandura.es";
     $password_smtp     = $paso;
-
-    $mail             = new PHPMailer();
-
     $nombre_cliente = $_REQUEST["nombre"];
     $email_cliente = $_REQUEST["email"];
+    $mail             = new PHPMailer();
+
+
 
     $mensaje .= "
         <h4>El usuario: " . $_POST["nombre"] . " desea contactarnos. </h4><br/>
