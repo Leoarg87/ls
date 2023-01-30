@@ -195,7 +195,7 @@ $('.opiniones').slick({
             data: $("#form-contacto").serialize(),
          
             success: function(data) {
-                console.log(data);
+                console.log("js");
                 if (parseInt(data)) {
                   
                     Swal.fire({
