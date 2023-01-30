@@ -13,7 +13,7 @@
     include 'inc/nav.php';
     ?>
 
-nuevo 1
+nuevo 3
 
     <?php
     include 'inc/contacto.php';
