@@ -81,6 +81,7 @@
 
                                             Sin duda un nuevo concepto de animación para tus invitados donde la diversión y la tecnología van de la mano.
                                         </p>
+                                        <h6 class="titulo2 my-3 fs-3" >¿Que incluye?</h6>
                                         <img src="assets/img/queincluye.jpg" class="img-fluid" alt="">
                                         <h6 class="titulo2 my-3 fs-3" >¿Como funciona?</h6>
                                         <p class="p-servicios text-start">
