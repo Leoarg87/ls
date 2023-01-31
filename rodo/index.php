@@ -207,13 +207,18 @@
         <div class="row w-100 m-auto">
             <div class="col-12 position-relative">
                 <img src="assets/img/banner-solicita.png" class="img-fluid w-100 banner-solicita" style="max-height:500px" alt="">
+                <img src="assets/img/banner-solicita2.jpg" class="img-fluid w-100 banner-solicita1 d-flex d-md-none" style="max-height:500px" alt="">
+                
             </div>
 
-            <div class="col-12 col-lg-4 d-flex flex-column my-auto py-5 mx-auto">
+            <div class="col-12 col-lg-4 d-flex flex-column my-auto py-3 py-lg-5 mx-auto">
                 <h2 class="h2-banner-solicita">Solicita nuestro pack para boda y eventos</h2>
                 <hr class="hr-pack">
                 <h4 class="h4-banner-solicita">Haz de tu boda un dia inolvidable</h4>
                 <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto mt-3">Reservar ahora</a>
+            </div>
+            <div class="col-12 position-relative">
+            <img src="assets/img/banner-solicita3.jpg" class="img-fluid w-100 banner-solicita2 d-flex d-md-none" style="max-height:500px" alt="">
             </div>
 
 

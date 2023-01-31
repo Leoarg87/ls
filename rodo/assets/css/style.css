@@ -168,7 +168,7 @@ top: 1px;
 }
 .iconos {
   color: #d1b4aa;
-  font-size: 80px;
+  font-size: 50px;
 }
 .hover:hover {
   background-color: #d1b4aa1f;
@@ -632,6 +632,10 @@ justify-content: center;
 
 @media (max-width: 992px) {
   .banner-solicita{
+    object-fit: contain;
+    min-height: 370px;
+   }
+   .hr-pack{
     display: none;
    }
    .acordion-boton .h2-carousel{
@@ -645,6 +649,10 @@ justify-content: center;
   .sticky-top {
     background-color: rgb(209, 180, 170);
 }
+.banner-solicita{
+  display: none;
+}
+
     .banner-home{
         right: inherit;
     }

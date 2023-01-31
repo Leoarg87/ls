@@ -21,27 +21,27 @@
 
     <div class="container-fluid px-5  pt-5">
         <div class="d-flex flex-column flex-lg-row justify-content-between mx-lg-5 mx-0">
-            <a class="text-decoration-none acordion-boton" href="/servicios.php#fotomaton360"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+            <a class="text-decoration-none acordion-boton" href="/servicios.php#fotomaton360" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                 <img src="assets/img/360.png" class="img-slick-1 d-none d-lg-block" alt="">
                 <h2 class="h2-carousel">Fotomatón <br class="d-none d-lg-block"> 360<sup>º</sup></h2>
             </a>
-            <a class="text-decoration-none acordion-boton" href="/servicios.php#fotomaton"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+            <a class="text-decoration-none acordion-boton" href="/servicios.php#fotomaton" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
                 <img src="assets/img/fotomaton.png" class="img-slick-1 d-none d-lg-block" alt="">
                 <h2 class="h2-carousel">Fotomatón</h2>
             </a>
-            <a class="text-decoration-none acordion-boton" href="/servicios.php#candybar"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+            <a class="text-decoration-none acordion-boton" href="/servicios.php#candybar" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
                 <img src="assets/img/chuches.png" class="img-slick-1 d-none d-lg-block" alt="">
                 <h2 class="h2-carousel">Candy Bar</h2>
             </a>
-            <a class="text-decoration-none acordion-boton" href="/servicios.php#cochesclasicos"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+            <a class="text-decoration-none acordion-boton" href="/servicios.php#cochesclasicos" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
                 <img src="assets/img/coche.png" class="img-slick-1 d-none d-lg-block" style="min-height:150px;width:200px" alt="">
                 <h2 class="h2-carousel">Coches clásicos</h2>
             </a>
-            <a class="text-decoration-none acordion-boton" href="/servicios.php#shisas"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+            <a class="text-decoration-none acordion-boton" href="/servicios.php#shisas" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
                 <img src="assets/img/shisha.png" class="img-slick-1 d-none d-lg-block mx-auto d-flex" alt="">
                 <h2 class="h2-carousel">Shishas & Vapers</h2>
             </a>
-            <a class="text-decoration-none acordion-boton" href="/servicios.php#neones"  type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+            <a class="text-decoration-none acordion-boton" href="/servicios.php#neones" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
                 <img src="assets/img/neon.png" class="img-slick-1 d-none d-lg-block" style="min-height:150px;width:200px" alt="">
                 <h2 class="h2-carousel">Neones </h2>
             </a>
@@ -62,13 +62,24 @@
                                     <div class="col-12 col-lg-6 mx-auto">
                                         <h2 class="h2-carousel" id="heading1">Fotomatón 360<sup>º</sup></h2>
                                         <p class="p-servicios">
-                                            Sorprende a tus invitados con nuestra plataforma giratoria 360º.
+                                            Sorprende a tus invitados con nuestra plataforma giratoria 360º
+
+
                                         </p>
+
                                         <p class="p-servicios">
-                                            Múltiples formatos, como Slow Motion, convertirán tu evento en algo mágico desde todos los ángulos eligiendo la velocidad, tramos, logo y música que más te guste.
+                                            Múltiples formatos, como Slow Motion, convertirán tu evento en algo mágico desde todos los ángulos eligiendo la velocidad, la música y el diseño que más te guste.
                                         </p>
+                                        <img src="assets/img/360.jpeg" class="img-fluid" alt="">
+                                        <h6 class="titulo2 mt-3">¿Que es la plataforma 360º?</h6>
                                         <p class="p-servicios">
-                                            Tras la grabación, podrás visualizar y recibir el video directamente por código QR o Whatsapp.
+                                            Es un dispositivo compuesto por una plataforma y un mástil que gira alrededor de si misma. <br><br>
+
+                                            Con una cámara incorporada de alta definición dotada de lentes de gran angular.<br><br>
+
+                                            Crea videos de alta calidad, que podrás descargar y compartir de forma inmediata.<br><br>
+
+                                            Sin duda un nuevo concepto de animación para tus invitados donde la diversión y la tecnología van de la mano.
                                         </p>
 
                                     </div>
@@ -201,7 +212,7 @@
                                             </div>
                                         </div> -->
                                         <div class="row mt-5 py-lg-5">
-                                        <div class="col-12 col-lg-5 d-none d-lg-block">
+                                            <div class="col-12 col-lg-5 d-none d-lg-block">
                                                 <img src="assets/img/coches/mini2.jpeg" class="img-fluid rounded w-100 object-fit-contain" alt="">
                                             </div>
                                             <div class="col-12 col-lg-7 my-auto">
@@ -232,71 +243,71 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                           
+
                                         </div>
                                         <div class="d-none d-lg-block">
-                                        <div class="row lightbox mt-3">
-                                            <a href="assets/img/coches/accion1.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
-                                                <img src="assets/img/coches/accion1.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
-                                            <a href="assets/img/coches/accion2.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
-                                                <img src="assets/img/coches/accion2.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
-                                            <a href="assets/img/coches/accion3.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
-                                                <img src="assets/img/coches/accion3.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
-                                            <a href="assets/img/coches/accion4.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
-                                                <img src="assets/img/coches/accion4.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
+                                            <div class="row lightbox mt-3">
+                                                <a href="assets/img/coches/accion1.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
+                                                    <img src="assets/img/coches/accion1.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
+                                                <a href="assets/img/coches/accion2.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
+                                                    <img src="assets/img/coches/accion2.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
+                                                <a href="assets/img/coches/accion3.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
+                                                    <img src="assets/img/coches/accion3.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
+                                                <a href="assets/img/coches/accion4.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
+                                                    <img src="assets/img/coches/accion4.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
 
-                                        </div>
-                                        <div class="row lightbox pt-3">
-                                            <a href="assets/img/coches/accion5.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
-                                                <img src="assets/img/coches/accion5.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
-                                            <a href="assets/img/coches/accion6.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
-                                                <img src="assets/img/coches/accion6.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
-                                            <a href="assets/img/coches/accion7.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
-                                                <img src="assets/img/coches/accion7.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
-                                            <a href="assets/img/coches/accion8.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
-                                                <img src="assets/img/coches/accion8.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
+                                            </div>
+                                            <div class="row lightbox pt-3">
+                                                <a href="assets/img/coches/accion5.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
+                                                    <img src="assets/img/coches/accion5.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
+                                                <a href="assets/img/coches/accion6.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
+                                                    <img src="assets/img/coches/accion6.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
+                                                <a href="assets/img/coches/accion7.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
+                                                    <img src="assets/img/coches/accion7.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
+                                                <a href="assets/img/coches/accion8.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-3">
+                                                    <img src="assets/img/coches/accion8.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
 
-                                        </div>
+                                            </div>
                                         </div>
                                         <div class="d-block d-lg-none">
-                                        <div class="row lightbox  py-5">
-                                            <a href="assets/img/coches/accion1.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
-                                                <img src="assets/img/coches/accion1.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
-                                            <a href="assets/img/coches/accion2.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
-                                                <img src="assets/img/coches/accion2.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
-                                            <a href="assets/img/coches/accion3.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
-                                                <img src="assets/img/coches/accion3.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
-                                            <a href="assets/img/coches/accion4.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
-                                                <img src="assets/img/coches/accion4.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
+                                            <div class="row lightbox  py-5">
+                                                <a href="assets/img/coches/accion1.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
+                                                    <img src="assets/img/coches/accion1.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
+                                                <a href="assets/img/coches/accion2.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
+                                                    <img src="assets/img/coches/accion2.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
+                                                <a href="assets/img/coches/accion3.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
+                                                    <img src="assets/img/coches/accion3.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
+                                                <a href="assets/img/coches/accion4.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
+                                                    <img src="assets/img/coches/accion4.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
 
-                                        </div>
-                                        <div class="row lightbox ">
-                                            <a href="assets/img/coches/accion5.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
-                                                <img src="assets/img/coches/accion5.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
-                                            <a href="assets/img/coches/accion6.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
-                                                <img src="assets/img/coches/accion6.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
-                                            <a href="assets/img/coches/accion7.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
-                                                <img src="assets/img/coches/accion7.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
-                                            <a href="assets/img/coches/accion8.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
-                                                <img src="assets/img/coches/accion8.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
-                                            </a>
+                                            </div>
+                                            <div class="row lightbox ">
+                                                <a href="assets/img/coches/accion5.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
+                                                    <img src="assets/img/coches/accion5.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
+                                                <a href="assets/img/coches/accion6.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
+                                                    <img src="assets/img/coches/accion6.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
+                                                <a href="assets/img/coches/accion7.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
+                                                    <img src="assets/img/coches/accion7.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
+                                                <a href="assets/img/coches/accion8.jpeg" data-toggle="lightbox" data-gallery="example-gallery" class="col-12 col-md-6 col-lg-3 my-3">
+                                                    <img src="assets/img/coches/accion8.jpeg" class="img-fluid object-fit-cover w-100" style="max-height:197px">
+                                                </a>
 
-                                        </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
