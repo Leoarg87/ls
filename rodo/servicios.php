@@ -20,7 +20,7 @@
     </div>
 
     <div class="container-fluid px-3  pt-5">
-        <div class="d-flex flex-column flex-lg-row justify-content-between mx-lg-5 mx-0">
+        <div class="d-flex flex-column flex-lg-row justify-content-between mx-lg-2 mx-0">
             <a class="text-decoration-none acordion-boton" href="/servicios.php#fotomaton360" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                 <img src="assets/img/360.png" class="img-slick-1 d-none d-lg-block" alt="">
                 <h2 class="h2-carousel">Fotomatón <br class="d-none d-lg-block"> 360<sup>º</sup></h2>
@@ -59,8 +59,8 @@
                         <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionServicios">
                             <div class="accordion-body">
                                 <div class="row">
-                                    <div class="col-12 col-lg-10 mx-auto">
-                                        <h2 class="h2-carousel" id="heading1">Fotomatón 360<sup>º</sup></h2>
+                                    <div class="col-12 col-lg-10  mx-auto">
+                                        <h2 class="h2-carousel fs-2 mb-3" id="heading1">Fotomatón 360<sup>º</sup></h2>
                                         <p class="p-servicios text-start">
                                             Sorprende a tus invitados con nuestra plataforma giratoria 360º
 
@@ -71,7 +71,7 @@
                                             Múltiples formatos, como Slow Motion, convertirán tu evento en algo mágico desde todos los ángulos eligiendo la velocidad, la música y el diseño que más te guste.
                                         </p>
                                         <img src="assets/img/360.jpeg" class="img-fluid" alt="">
-                                        <h6 class="titulo2 mt-3">¿Que es la plataforma 360º?</h6>
+                                        <h6 class="titulo2 my-3 fs-3" >¿Que es la plataforma 360º?</h6>
                                         <p class="p-servicios text-start">
                                             Es un dispositivo compuesto por una plataforma y un mástil que gira alrededor de si misma. <br><br>
 
@@ -81,8 +81,8 @@
 
                                             Sin duda un nuevo concepto de animación para tus invitados donde la diversión y la tecnología van de la mano.
                                         </p>
-                                        <img src="assets/img/360.jpeg" class="img-fluid" alt="">
-                                        <h6 class="titulo2 mt-3">¿Como funciona?</h6>
+                                        <img src="assets/img/queincluye.jpg" class="img-fluid" alt="">
+                                        <h6 class="titulo2 my-3 fs-3" >¿Como funciona?</h6>
                                         <p class="p-servicios text-start">
                                             Los participantes subirán a una plataforma fija de 80cm de diámetro con capacidad para 3 personas adultas.(recomendable) <br><br>
 
