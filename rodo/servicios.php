@@ -19,7 +19,7 @@
         </div>
     </div>
 
-    <div class="container-fluid px-5  pt-5">
+    <div class="container-fluid px-3  pt-5">
         <div class="d-flex flex-column flex-lg-row justify-content-between mx-lg-5 mx-0">
             <a class="text-decoration-none acordion-boton" href="/servicios.php#fotomaton360" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                 <img src="assets/img/360.png" class="img-slick-1 d-none d-lg-block" alt="">
@@ -59,20 +59,20 @@
                         <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionServicios">
                             <div class="accordion-body">
                                 <div class="row">
-                                    <div class="col-12 col-lg-6 mx-auto">
+                                    <div class="col-12 col-lg-10 mx-auto">
                                         <h2 class="h2-carousel" id="heading1">Fotomatón 360<sup>º</sup></h2>
-                                        <p class="p-servicios">
+                                        <p class="p-servicios text-start">
                                             Sorprende a tus invitados con nuestra plataforma giratoria 360º
 
 
                                         </p>
 
-                                        <p class="p-servicios">
+                                        <p class="p-servicios text-start">
                                             Múltiples formatos, como Slow Motion, convertirán tu evento en algo mágico desde todos los ángulos eligiendo la velocidad, la música y el diseño que más te guste.
                                         </p>
                                         <img src="assets/img/360.jpeg" class="img-fluid" alt="">
                                         <h6 class="titulo2 mt-3">¿Que es la plataforma 360º?</h6>
-                                        <p class="p-servicios">
+                                        <p class="p-servicios text-start">
                                             Es un dispositivo compuesto por una plataforma y un mástil que gira alrededor de si misma. <br><br>
 
                                             Con una cámara incorporada de alta definición dotada de lentes de gran angular.<br><br>
@@ -81,7 +81,17 @@
 
                                             Sin duda un nuevo concepto de animación para tus invitados donde la diversión y la tecnología van de la mano.
                                         </p>
+                                        <img src="assets/img/360.jpeg" class="img-fluid" alt="">
+                                        <h6 class="titulo2 mt-3">¿Como funciona?</h6>
+                                        <p class="p-servicios text-start">
+                                            Los participantes subirán a una plataforma fija de 80cm de diámetro con capacidad para 3 personas adultas.(recomendable) <br><br>
 
+                                            Una vez colocados, el mástil girara alrededor de ella y captara el movimiento de los participantes desde todos los ángulos, podrán moverse libremente, bailar y divertirse <br><br>
+
+                                            con el atrezzo añadido que ira incluido en el servicio. Los videos serán aún más divertidos.<br><br>
+
+                                            Además nuestro software es de los más actualizados y completos del mercado ofreciendo una gran variedad de efectos FX, marcos digitales fondos chroma, y personalización de los videos con vuestro logotipo o textos deseados. Haciendo que sean más emocionantes, divertidos y 100% personalizados.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
