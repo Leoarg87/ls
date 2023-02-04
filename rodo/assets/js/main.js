@@ -193,7 +193,7 @@ $('.opiniones').slick({
       console.log("js")
       $.ajax({
         type: "POST",
-        url: "https://leoscandura.es/rodo/mail.php",
+        url: "https://leoscandura.es/rodo/mandar_mail.php",
         data: $("#form_contacto").serialize(),
         success: function (data) {
           
