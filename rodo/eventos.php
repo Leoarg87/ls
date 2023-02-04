@@ -51,52 +51,60 @@
 
                 <h6 class="incluye px-5 pb-3 text-center">¿Qué incluye?</h6>
 
-                <div class="col-12 col-lg-6">
-                    <div class="lista">
-                        <p class="p-home-lista">
+                <div class="col-12 col-md-6 col-lg-6  ps-5 d-flex flex-column  mx-auto ">
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                        <p class="p-home-lista pe-2">
                             3 Horas de fotos y vídeos ilimitados
                         </p>
+                        
                     </div>
-                    <div class="lista">
-                        <p class="p-home-lista">
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                        <p class="p-home-lista pe-2">
                             Álbum clásico o personalizado
                         </p>
+                        
                     </div>
-                    <div class="lista">
-                        <p class="p-home-lista">
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                        <p class="p-home-lista pe-2">
                             Photocall seleccionable entre nuestros diseños
                         </p>
+                        
                     </div>
 
-                    <div class="lista">
-                        <p class="p-home-lista">
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                        <p class="p-home-lista pe-2">
                             Diseños y formatos de fotografías personalizados
                         </p>
+                        
                     </div>
 
                 </div>
-                <div class="col-12 col-lg-6">
-
-                    <div class="lista">
-                        <p class="p-home-lista">
+                <div class="col-12 col-md-6 col-lg-6  ps-5 d-flex flex-column  mx-auto ">
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                      
+                        <p class="p-home-lista pe-2">
                             Atrezo divertido y tematizado
                         </p>
                     </div>
-                    <div class="lista">
-                        <p class="p-home-lista">
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                       
+                        <p class="p-home-lista pe-2">
                             Galería privada en la web
                         </p>
                     </div>
-                    <div class="lista">
-                        <p class="p-home-lista">
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                       
+                        <p class="p-home-lista pe-2">
                             2 Azafatos que cuidarán todos los detalles
                         </p>
                     </div>
-                    <div class="lista">
-                        <p class="p-home-lista">
-                        Selección de filtros blanco y negro y sepia 
+
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                        <p class="p-home-lista pe-2">
+                            Selección de filtros blanco y negro y sepia
                         </p>
                     </div>
+
                 </div>
             </div>
         </div>
