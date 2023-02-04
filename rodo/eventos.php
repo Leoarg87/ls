@@ -47,7 +47,7 @@
             <div class="col-12 col-md-6">
                 <img src="assets/img/pack-bodas1.jpg" class="img-fluid"  alt="">
             </div>
-            <div class="col-12 col-md-8 row  mx-auto">
+            <div class="col-12 col-lg-8 row  mx-auto">
 
                 <h6 class="incluye px-5 pb-3 text-center">¿Qué incluye?</h6>
 
