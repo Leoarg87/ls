@@ -1,4 +1,5 @@
 <?php 
+echo "aqui";
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ERROR);
@@ -10,7 +11,7 @@ require '../PHPMailer/src/Exception.php';
   $error = "";
 
   function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $nombre, $contenido_asunto, $contenido_html){
-echo "aqui";
+
       global $error;
 
       $host_smtp         = "smtp.hostinger.com";
