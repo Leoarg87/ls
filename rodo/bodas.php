@@ -21,9 +21,8 @@
 
     <div class="container pb-5">
         <div class="row">
-
-            <div class="col-12 col-lg-9  pt-5 pb-3 mx-auto">
-                <h1 class="titulo1 text-uppercase text-center">Fotomatón para bodas</h1>
+        <div class="col-12 col-lg-9  py-5  mx-auto">
+                <h1 class="titulo1 pb-5 text-uppercase text-center">Fotomatón para bodas</h1>
                 <p class="p-home px-5">
                     En <span class="fw-bold">Rodo Eventos</span> ofrecemos la mejor solución para capturar los momentos más divertidos y memorables de tu boda. Con nuestro fotomatón de última generación y un equipo de profesionales, aseguramos una experiencia única y sin problemas para ti y tus invitados. <br> <br>
                     Nuestro objetivo es hacer que tu boda sea aún más inolvidable, proporcionándote un servicio profesional y personalizado para que puedas disfrutar de la fiesta sin preocupaciones.
