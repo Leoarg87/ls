@@ -49,8 +49,6 @@
  
 
  $mensaje  = trim($_POST["mensaje"]);
-//  $to ='ns.desarrollo16@gmail.com';
- $to = 'leoarielgarcia87@gmail.com';
  $enviado = false;
  $header = 'From:'. $_POST["email"] . "\r\n" .
  $header = 'FromName:'. $_POST["nombre"] . "\r\n" .
@@ -58,12 +56,13 @@
 
  $cuerpo = "";
  $cuerpo .= "
- <h4>Solicitud Informacion</h4><br/>
- <ul>
+ <h4>Solicitud Informacion de un cliente a traves de nuestra web</h4><br/>
+ <ul'>
      <li>Nombre : ". $_POST["nombre"] . "</li>
      <li>Email : ". $_POST["email"] . "</li>
      <li>Telefono : ". $_POST["telefono"] . "</li>
      <li>Comentarios : ". $_POST["mensaje"] . "</li>
+     </ul>
  ";
 
 
@@ -71,8 +70,8 @@
 
  $contenido_asunto =  "este mensaje fue enviado en la web";
  $destinatario_email     =    "hola@leoscandura.es";
- $destinatario_nombre     =    "Leonardo Scandura";
-$remitente_email = "hola@leoscandura.es";
+ $destinatario_nombre     =    "Rodo Eventos";
+$remitente_email = $_POST["email"];
 $nombre="Rodo";
 
  $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $nombre, $contenido_asunto, $cuerpo);
