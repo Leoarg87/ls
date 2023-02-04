@@ -32,7 +32,7 @@
      $mail->Port       = 465;                    
      $mail->Host       = $host_smtp;  
 
-     $mail->SetFrom("hola@leoscandura.es", $nombre);
+     $mail->SetFrom($email, $nombre);
      $mail->AddAddress($destinatario_email, $destinatario_nombre);
      $mail->Subject    = $contenido_asunto;
      $mail->MsgHTML($contenido_html);
