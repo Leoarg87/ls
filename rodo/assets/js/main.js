@@ -139,78 +139,71 @@ $('.opiniones').slick({
     }
     
   });
-  $("#btn_form").click(function (event) {
+  $("#btn_form").click(function(event) {
+
     event.preventDefault();
-    let mailFormat =
-      /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    var numberFormat = /^[0-9]+$/;
-    var nombre = $("#nombre").val();
-    
-    var email = $("#email").val();
-    var telefono = $("#telefono").val();
-    var mensaje = $("#mensaje").val();
-    if (nombre.length < 1) {
-      Swal.fire({
-        icon: "error",
-        title: "UPS!",
+  let mailFormat = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  var nombre = $("#nombre").val();
+      var email = $("#email").val();
+      var telefono = $("#telefono").val();
+      var mensaje = $("#mensaje").val();
+  if (nombre.length < 1) {
+    Swal.fire({
+        icon: 'error',
+        title: 'UPS!',
         text: 'El campo "nombre" es obligatorio',
-      });
-      $("#nombre").focus();
-    }  else if (email.length < 1) {
-      Swal.fire({
-        icon: "error",
-        title: "UPS!",
+    });
+    $("#nombre").focus();
+  } else if (email.length < 1) {
+    Swal.fire({
+        icon: 'error',
+        title: 'UPS!',
         text: 'El campo "correo electrónico" es obligatorio',
-      });
-      $("#email").focus();
-    } else if (!mailFormat.exec(email)) {
-      Swal.fire({
-        icon: "error",
-        title: "ERROR",
-        text: "Ingresa una dirección de correo válida",
-      });
-    } else if (telefono.length < 1) {
-      Swal.fire({
-        icon: "error",
-        title: "UPS!",
-        text: 'El campo "teléfono" es obligatorio',
-      });
-      $("#telefono").focus();
-    } else if (!numberFormat.exec(telefono)) {
-      Swal.fire({
-        icon: "error",
-        title: "ERROR",
-        text: "El campo solo acepta números",
-      });
-    } else if (mensaje.length < 1) {
-      Swal.fire({
-        icon: "error",
-        title: "UPS!",
-        text: 'El campo "información adicional" es obligatorio',
-      });
-      $("#mensaje").focus();
-    } else {
-      console.log("js")
-      $.ajax({
+    });
+    $("#email").focus();
+  } else if (!mailFormat.exec(email)) {
+    Swal.fire({
+        icon: 'error',
+        title: 'ERROR',
+        text: 'Ingresa una dirección de correo válida',
+    });
+  }else if (telefono.length < 1) {
+    Swal.fire({
+        icon: 'error',
+        title: 'UPS!',
+        text: 'El campo "telefono" es obligatorio',
+    });
+    $("#telefono").focus();
+  } 
+  else if (mensaje.length < 1){
+    Swal.fire({
+      icon: 'error',
+      title: 'UPS!',
+      text: 'El campo "mensaje" es obligatorio',
+  });
+  $("#mensaje").focus();
+  }else {
+    $.ajax({
         type: "POST",
-        url: "mandar_mail.php",
+        url: "inc/mandar_mail.php",
         data: $("#form_contacto").serialize(),
         success: function (data) {
-          
-          Swal.fire({
-            icon: "success",
-            title: "GRACIAS",
-            text: "El formulario se envió exitosamente. Un agente se contactará contigo a la brevedad",
-          });
-          $("#form_contacto").trigger("reset");
+            console.log(data);
+            Swal.fire({
+                icon: 'success',
+                title: 'GRACIAS',
+                text: 'El formulario se envió exitosamente. Un agente se contactará contigo a la brevedad',
+            });
+            $('#form_contacto').trigger("reset");
+        
+  
         },
         error: function (request, error) {
-          Swal.fire({
-            icon: "error",
-            title: "ERROR",
-            text: "Algo salió mal. Revisa la conexión a internet y vuelve a intentarlo nuevamente.",
-          });
-        },
-      });
-    }
-  });
+            Swal.fire({
+                icon: 'error',
+                title: 'ERROR',
+                text: 'Algo salió mal. Revisa la conexión a internet y vuelve a intentarlo nuevamente.',
+            });
+        }
+    });
+  }});
