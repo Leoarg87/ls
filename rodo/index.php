@@ -68,27 +68,27 @@
     <div class="container-fluid py-3 py-lg-5">
         <div class="row">
             <div class="carousel-slick">
-                <a class="text-decoration-none fotomaton360" href="servicios.php#fotomaton360">
+                <a class="text-decoration-none fotomaton360" href="plataforma.php">
                     <img src="assets/img/360.png" class="img-slick-1" alt="">
-                    <h2 class="h2-carousel">Fotomatón <br> 360<sup>º</sup></h2>
+                    <h2 class="h2-carousel">Plataforma <br> 360<sup>º</sup></h2>
                 </a>
-                <a class="text-decoration-none fotomaton" href="servicios.php#fotomaton">
+                <a class="text-decoration-none fotomaton" href="fotomaton.php">
                     <img src="assets/img/fotomaton.png" class="img-slick-1" alt="">
                     <h2 class="h2-carousel">Fotomatón</h2>
                 </a>
-                <a class="text-decoration-none candybar" href="servicios.php#candybar">
+                <a class="text-decoration-none candybar" href="candybar.php">
                     <img src="assets/img/chuches.png" class="img-slick-1" alt="">
                     <h2 class="h2-carousel">Candy Bar</h2>
                 </a>
-                <a class="text-decoration-none cochesclasicos" href="servicios.php#cochesclasicos">
+                <a class="text-decoration-none cochesclasicos" href="coches-clasicos.php">
                     <img src="assets/img/coche.png" class="img-slick-1" style="min-height:150px;width:200px" alt="">
                     <h2 class="h2-carousel">Coches clásicos</h2>
                 </a>
-                <a class="text-decoration-none shisas" href="servicios.php#shisas">
+                <a class="text-decoration-none shisas" href="shishas-vapers.php">
                     <img src="assets/img/shisha.png" class="img-slick-1" alt="">
                     <h2 class="h2-carousel">Shishas & Vapers</h2>
                 </a>
-                <a class="text-decoration-none neones" href="servicios.php#neones">
+                <a class="text-decoration-none neones" href="neones.php">
                     <img src="assets/img/neon.png" class="img-slick-1" style="min-height:150px;width:200px" alt="">
                     <h2 class="h2-carousel">Neones </h2>
                 </a>
