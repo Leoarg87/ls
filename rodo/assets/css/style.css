@@ -388,10 +388,10 @@ margin-top: 1rem;
   min-height: 168px;
 }
 .slick-prev{
-  left: 0;
+  left: -40px;
 }
 .slick-next{
-  right: 0;
+  right: -40px;
 }
 .borde-top{
   border-top: 2px solid var(--color-primary);
