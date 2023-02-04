@@ -56,7 +56,7 @@
 
  $cuerpo = "";
  $cuerpo .= "
- <h4>Solicitud Informacion de un cliente a traves de nuestra web</h4><br/>
+ <h4>Solicitud Informacion de  ". $_POST["nombre"] ." a traves de nuestra web</h4><br/>
  <ul'>
      <li>Nombre : ". $_POST["nombre"] . "</li>
      <li>Email : ". $_POST["email"] . "</li>
@@ -68,7 +68,7 @@
 
 
 
- $contenido_asunto =  "este mensaje fue enviado en la web";
+ $contenido_asunto =  "". $_POST["nombre"] . " Solicita informacion desde la web";
  $destinatario_email     =    "hola@leoscandura.es";
  $destinatario_nombre     =    "Rodo Eventos";
 $remitente_email = $_POST["email"];
