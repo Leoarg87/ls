@@ -135,6 +135,9 @@
     <?php
     include 'inc/footer.php';
     ?>
+    <script>
+    $('#galeria').addClass('active');
+</script>
 </body>
 
 </html>

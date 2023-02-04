@@ -37,9 +37,9 @@
             <a class="navbar-brand py-0" href="index.php"><img src="assets/img/logo-transparente.png" alt="Rodo Eventos" class="img-fluid logo d-none d-lg-block"></a>
           </div>
           <div class="col-12 col-lg-4 d-flex justify-content-between flex-column flex-lg-row">
-            <a class="nav-link my-auto text-center text-lg-start" aria-current="page" href="galeria.php">Galería</a>
-            <a class="nav-link my-auto text-center text-lg-start" aria-current="page" href="area-privada.php">Area privada</a>
-            <a class="nav-link my-auto text-center text-lg-start" aria-current="page" href="contacto.php">Contacto</a>
+            <a class="nav-link my-auto text-center text-lg-start" aria-current="page" id="galeria"href="galeria.php">Galería</a>
+            <a class="nav-link my-auto text-center text-lg-start" aria-current="page" id="area-privada"href="area-privada.php">Area privada</a>
+            <a class="nav-link my-auto text-center text-lg-start" aria-current="page"id="contacto" href="contacto.php">Contacto</a>
           </div>
         </div>
 

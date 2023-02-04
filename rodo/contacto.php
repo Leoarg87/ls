@@ -12,9 +12,6 @@
     <?php
     include 'inc/nav.php';
     ?>
-
-nuevo 1
-
 <div class="container py-5 px-0" id="contacto">
     <div class="d-flex justify-content-center">
 
@@ -63,7 +60,9 @@ nuevo 1
 </div>
     <?php
     include 'inc/footer.php';
-    ?>
+    ?><script>
+    $('#contacto').addClass('active');
+</script>
 </body>
 
 </html>

@@ -118,6 +118,9 @@
     <?php
     include 'inc/footer.php';
     ?>
+    <script>
+    $('#area-privada').addClass('active');
+</script>
 </body>
 
 </html>
