@@ -72,13 +72,15 @@
  $contenido_asunto =  "este mensaje fue enviado en la web";
  $destinatario_email     =    "leoarielgarcia87@gmail.com";
  $destinatario_nombre     =    "Leonardo Scandura";
+$remitente_email = "hola@leoscandura.es";
+$nombre="Rodo";
 
- $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre,  $email, $nombre, $contenido_asunto, $cuerpo);
+ $enviado = mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $nombre, $contenido_asunto, $cuerpo);
  echo $cuerpo;
  echo $enviado;
  echo ($enviado);
   if($enviado){
-     header("Location: enviado.php");
+     echo 1;
   } else {
       echo 0;
   }
