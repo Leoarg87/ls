@@ -14,17 +14,17 @@
     ?>
 
 
-    <div class="container mt-5 pt-5 pb-5">
-        <div class="row pt-5">
+    <div class="container mt-5 ">
+        <div class="row">
 
-            <div class="col-12 col-lg-9  pt-5 pb-3 mx-auto">
+            <div class="col-12 col-lg-9  py-5  mx-auto">
                 <h1 class="titulo1 text-uppercase text-center">Galeria de fotos</h1>
 
             </div>
             <div class="col-4">
                 <hr class="hr-bodas">
             </div>
-            <div class="col-4">
+            <div class="col-4 mb-5">
                 <h2 class="titulo1 text-uppercase text-center">BODAS</h2>
             </div>
             <div class="col-4">
@@ -32,8 +32,8 @@
             </div>
 
 
-        </div>
-        <div class="row grid-fotos">
+
+            <!-- <div class="row grid-fotos">
             <div class="col-12 col-md-6 col-lg-3 p-1">
                 
                 <img src="assets/img/2.jpg" class="grid-img" alt="">
@@ -71,19 +71,23 @@
                 <img src="assets/img/carousel/8.jpg" class="grid-img" alt="">
                 <img src="assets/img/carousel/9.jpg" class="grid-img" alt="">
             </div>
+        </div> -->
+            <div class="col-12">
+                <img src="assets/img/bodas-fotomaton.jpeg" class="img-fluid d-flex mx-auto" alt="">
+            </div>
         </div>
-        <div class="row py-5 ">
-        <div class="col-4">
+        <div class="row py-5 mt-5">
+            <div class="col-4">
                 <hr class="hr-bodas">
             </div>
-            <div class="col-4">
+            <div class="col-4 mb-5">
                 <h2 class="titulo1 text-uppercase text-center">EVENTOS</h2>
             </div>
             <div class="col-4">
                 <hr class="hr-bodas">
             </div>
-        </div>
-        <div class="row grid-fotos">
+
+            <!-- <div class="row grid-fotos">
             <div class="col-12 col-md-6 col-lg-3 p-1">
                 
                 <img src="assets/img/2.jpg" class="grid-img" alt="">
@@ -120,6 +124,10 @@
                 <img src="assets/img/carousel/7.jpg" class="grid-img" alt="">
                 <img src="assets/img/carousel/8.jpg" class="grid-img" alt="">
                 <img src="assets/img/carousel/9.jpg" class="grid-img" alt="">
+            </div>
+        </div> -->
+            <div class="col-12">
+                <img src="assets/img/eventos-fotomaton.jpeg" class="img-fluid d-flex mx-auto" alt="">
             </div>
         </div>
     </div>

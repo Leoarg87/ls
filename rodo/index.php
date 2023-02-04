@@ -98,107 +98,78 @@
     <div class="container pb-5">
         <div class="row">
             <div class="col-12 pt-5 pb-3">
-                <h1 class="fotomaton text-center">FOTOMATÓN y FOTOMATÓN 360<sup>º</sup></h1>
+                <h1 class="fotomaton text-center">FOTOMATÓN y Plataforma 360<sup>º</sup></h1>
 
                 <h2 class="titulo1 text-center"> BODAS Y EVENTOS</h2>
             </div>
             <div class="col-12 pb-5">
                 <h3 class="titulo2">¿Quieres que tus invitados no olviden nunca tu gran día?</h3>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-lg-5 mb-5 my-lg-0">
                 <img src="assets/img/fotomaton-1.png" class="img-fluid foto1" alt="">
             </div>
-            <div class="col-12 col-md-6 row pt-3 pt-lg-0 ">
+            <div class="col-12 col-lg-7 px-5 row pt-3 pt-lg-0 ">
                 <p class="p-home px-5">
                     En <span class="fw-bold">rodo eventos</span> sabemos que no es fácil organizar un evento para que tus invitados se diviertan y lo hagan de verdad. Con nuestro servicio de fotomatón tendras todo lo que necesitas para conseguirlo.
 
                 </p>
                 <h6 class="incluye px-5 pb-3 text-center text-lg-start pt-3 pt-lg-0">¿Qué incluye?</h6>
-                <!-- <ul class="ps-5 ul-list">
-                    <li>
-                        <p class="p-home">
+                <div class="col-12 col-md-6 col-lg-6  ps-5 d-flex flex-column  mx-auto ">
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                        <p class="p-home-lista pe-2">
                             3 Horas de fotos y vídeos ilimitados
                         </p>
-                    </li>
-                    <li>
-                        <p class="p-home">
-                            Photocall seleccionable entre nuestros diseños
-                        </p>
-                    </li>
-                    <li>
-                        <p class="p-home">
+                        
+                    </div>
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                        <p class="p-home-lista pe-2">
                             Álbum clásico o personalizado
                         </p>
-                    </li>
-                    <li>
-                        <p class="p-home">
+                        
+                    </div>
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                        <p class="p-home-lista pe-2">
+                            Photocall seleccionable entre nuestros diseños
+                        </p>
+                        
+                    </div>
+
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                        <p class="p-home-lista pe-2">
                             Diseños y formatos de fotografías personalizados
                         </p>
-                    </li>
-                    <li>
-                        <p class="p-home">
-                            2 Azafatos que cuidarán todos los detalles
-                        </p>
-                    </li>
-                    <li>
-                        <p class="p-home">
+                        
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-6  ps-5 d-flex flex-column  mx-auto ">
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                      
+                        <p class="p-home-lista pe-2">
                             Atrezo divertido y tematizado
                         </p>
-                    </li>
-                    <li>
-                        <p class="p-home">
+                    </div>
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                       
+                        <p class="p-home-lista pe-2">
                             Galería privada en la web
                         </p>
-                    </li>
-                    <li>
-                        <p class="p-home">
-                            Pendrive
-                        </p>
-                    </li>
-
-                </ul> -->
-                <div class="col-10 ps-5 ps-lg-0 col-lg-6 d-flex flex-column  mx-auto ">
-                    <div class="lista">
-                        <p class="p-home">
-                            3 Horas de fotos y vídeos ilimitados
-                        </p>
                     </div>
-                    <div class="lista">
-                        <p class="p-home">
-                            Álbum clásico o personalizado
-                        </p>
-                    </div>
-                    <div class="lista">
-                        <p class="p-home">
-                            Photocall seleccionable entre nuestros diseños
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                       
+                        <p class="p-home-lista pe-2">
+                            2 Azafatos que cuidarán todos los detalles
                         </p>
                     </div>
 
-                    <div class="lista">
-                        <p class="p-home">
-                            Diseños y formatos de fotografías personalizados
+                    <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
+                        <p class="p-home-lista pe-2">
+                            Selección de filtros blanco y negro y sepia
                         </p>
                     </div>
 
                 </div>
-                <div class="col-10 ps-5 ps-lg-0 col-lg-6 d-flex flex-column  mx-auto ">
 
-                    <div class="lista">
-                        <p class="p-home">
-                            Atrezo divertido y tematizado
-                        </p>
-                    </div>
-                    <div class="lista">
-                        <p class="p-home">
-                            Galería privada en la web
-                        </p>
-                    </div>
-                    <div class="lista">
-                        <p class="p-home">
-                            2 Azafatos que cuidarán todos los detalles
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -208,17 +179,17 @@
             <div class="col-12 position-relative">
                 <img src="assets/img/banner-solicita.png" class="img-fluid w-100 banner-solicita" style="max-height:500px" alt="">
                 <img src="assets/img/banner-solicita2.jpg" class="img-fluid w-100 banner-solicita1 d-flex d-md-none" style="max-height:500px" alt="">
-                
+
             </div>
 
-            <div class="col-12 col-lg-4 d-flex flex-column my-auto py-3 py-lg-5 mx-auto">
-                <h2 class="h2-banner-solicita">Solicita nuestro pack para boda y eventos</h2>
+            <div class="col-12 col-lg-6 d-flex flex-column my-auto py-3 py-lg-5 mx-auto">
+                <h2 class="h2-banner-solicita">Solicita nuestro pack <br> para boda y eventos</h2>
                 <hr class="hr-pack">
                 <h4 class="h4-banner-solicita">Haz de tu boda un dia inolvidable</h4>
                 <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto mt-3">Reservar ahora</a>
             </div>
             <div class="col-12 position-relative">
-            <img src="assets/img/banner-solicita3.jpg" class="img-fluid w-100 banner-solicita2 d-flex d-md-none" style="max-height:500px" alt="">
+                <img src="assets/img/banner-solicita3.jpg" class="img-fluid w-100 banner-solicita2 d-flex d-md-none" style="max-height:500px" alt="">
             </div>
 
 
@@ -230,27 +201,27 @@
             <div class="col-12 col-md-4 hover justify-content-center">
                 <i aria-hidden="true" class="far iconos fa-grin-tears d-flex justify-content-center py-3"></i>
                 <h2 class="titulo1 text-center">DIVERSIÓN</h2>
-                <p class="p-home text-center">
-                    La diversión está asegurada. Dale el toque original y divertido que hará que tus invitados se lo pasen en grande.
+                <p class="p-home text-center px-5">
+                    La diversión está asegurada. <br> Dale el toque original y divertido que hará que tus invitados se lo pasen en grande.
                 </p>
             </div>
             <div class="col-12 col-md-4 hover">
                 <i aria-hidden="true" class="fas iconos fa-camera-retro d-flex justify-content-center py-3"></i>
                 <h2 class="titulo1 text-center">RECUERDOS</h2>
-                <p class="p-home text-center">
+                <p class="p-home text-center px-5">
 
 
-                    La vida es la suma de los grandes momentos que recordamos. Haz de tu día un día inolvidable y llévate este recuerdo a casa.
+                    La vida es la suma de los grandes momentos que recordamos. <br> Haz de tu día un día inolvidable y llévate este recuerdo a casa.
 
                 </p>
             </div>
             <div class="col-12 col-md-4 hover">
                 <i aria-hidden="true" class="far iconos fa-heart d-flex justify-content-center py-3"></i>
                 <h2 class="titulo1 text-center">EMOCIÓN</h2>
-                <p class="p-home text-center">
+                <p class="p-home text-center px-5">
 
 
-                    Vive junto a tus seres queridos tu día más especial, y hazlo con el corazón. Ama, ríe, grita, abraza, besa y comparte
+                    Vive junto a tus seres queridos tu día más especial, y hazlo con el corazón. <br> Ama, ríe, grita, abraza, besa y comparte
 
                 </p>
             </div>
@@ -263,7 +234,7 @@
                 <div class="flip3D">
                     <div class="back d-flex justify-content-center flex-column">
                         <h2 class="text-center pt-5">Bodas</h2>
-                        <p class="text-center my-auto px-3">En rodo eventos sabemos que no es fácil organizar una boda para que tus invitados se diviertan y lo hagan de verdad. <br> La solución es fácil, nuestro fotomaton para bodas hará que tu boda sea diferente, divertida y muy original.</p>
+                        <p class="text-center my-auto px-3">En Rodo Eventos sabemos que no es fácil organizar una boda para que tus invitados se diviertan y lo hagan de verdad. <br> La solución es fácil, contratando nuestro servicio de fotomatón, hará que tu boda sea diferente, divertida y muy original</p>
                     </div>
                     <div class="front">
                         <img src="assets/img/boda.jpg" class="img-fluid w-100" alt="">
@@ -290,12 +261,12 @@
             <div class="col-12 col-xl-4 my-3 my-xl-0">
                 <div class="flip3D">
                     <div class="back d-flex justify-content-center flex-column">
-                        <h2 class="text-center pt-5">Fotomatón 360</h2>
-                        <p class="text-center my-auto px-3">Es una plataforma a la que subes para hacerte un video en 360º. Subimos los videos al momento para que los invitados los puedan descargar y compartir. </p>
+                        <h2 class="text-center pt-5">Plataforma 360</h2>
+                        <p class="text-center my-auto px-3">Sorprende a tus invitados con nuestra plataforma giratoria 360, crea videos original desde todos los ángulos, elige la velocidad, la musica y el diseño que mas te guste. Hará de tu evento algo mágico.</p>
                     </div>
                     <div class="front">
                         <img src="assets/img/360.jpeg" class="img-fluid w-100" alt="">
-                        <h2 class="titulo-flip">Fotomatón 360</h2>
+                        <h2 class="titulo-flip">Plataforma 360</h2>
                     </div>
                 </div>
 
@@ -306,11 +277,11 @@
 
     <div class="container py-5">
         <div class="row">
-        <div class="col-6 d-flex mx-auto justify-content-center">
-                    <h2 class="titulo2 my-5">Opiniones de nuestros clientes</h2>
-                </div>
+            <div class="col-6 d-flex mx-auto justify-content-center">
+                <h2 class="titulo2 my-5">Opiniones de nuestros clientes</h2>
+            </div>
             <div class="opiniones">
-                
+
                 <div class="mx-4">
                     <div class="card card-opiniones">
                         <div class="d-flex mt-3 justify-content">
@@ -417,16 +388,16 @@
     <!-- SnapWidget -->
 
     <div class="container">
-    <h2 class="titulo2 mb-5">Siguenos en instagram</h2>
+        <h2 class="titulo2 mb-5">Siguenos en instagram</h2>
         <div class="d-lg-flex d-none ">
-            
+
             <!-- SnapWidget -->
             <script src="https://snapwidget.com/js/snapwidget.js"></script>
             <iframe src="https://snapwidget.com/embed/1021193" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:70%;margin:0 auto "></iframe>
         </div>
 
     </div>
-    
+
 
     <?php
     include 'inc/contacto.php';
@@ -434,6 +405,7 @@
     <?php
     include 'inc/footer.php';
     ?>
+    
 </body>
 
 </html>

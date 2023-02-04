@@ -29,6 +29,13 @@ body{
 .nav-link.active {
   color: #3c3950;
 }
+.active-servicio{
+  background-color: rgb(209, 180, 170,1);
+  color:white
+}
+.dropdown-item:hover{
+  background-color: rgb(209, 180, 170,0.7);
+}
 .img-carousel {
   height: 600px;
   object-fit: cover;
@@ -142,7 +149,7 @@ width: 100%;
 }
 .h2-banner-solicita{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 40px;
+  font-size: 36px;
   color:#845A12;
   text-transform: uppercase;
   text-align: center;
@@ -153,7 +160,7 @@ width: 100%;
   color:#845A12;
   text-align: center;
 }
-.lista::before {
+.p-home-lista::before {
   font-family: "Font Awesome 5 Free";
 font-weight: 900;
 content: "\f058";
@@ -162,13 +169,13 @@ left: -18px;
 color: #d1b4aa;
 top: 1px;
 }
-.lista {
-
+.p-home-lista {
+min-height: 48px;
   position: relative;
 }
 .iconos {
   color: #d1b4aa;
-  font-size: 50px;
+  font-size: 30px;
 }
 .hover:hover {
   background-color: #d1b4aa1f;
@@ -651,7 +658,10 @@ justify-content: center;
 }
 .banner-solicita{
   display: none;
-}
+}.p-home-lista {
+  min-height: 0;
+    position: relative;
+  }
 
     .banner-home{
         right: inherit;

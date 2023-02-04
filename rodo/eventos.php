@@ -23,11 +23,10 @@
         <div class="row">
 
             <div class="col-12 col-lg-9  pt-5 pb-3 mx-auto">
-                <h1 class="titulo1 text-uppercase text-center">Alquiler de fotomatón para eventos</h1>
+                <h1 class="titulo1 text-uppercase text-center">Fotomatón para eventos</h1>
                 <p class="p-home px-5">
-                    En <span class="fw-bold">rodo eventos</span> sabemos que no es fácil organizar un evento para que tus invitados se diviertan y lo hagan de verdad. La solución es fácil, nuestro fotomaton para eventos hará que tu boda sea diferente, divertida y muy original. <br>
-                    <br>
-                    Te ofrecemos un fotomaton para eventos, un dispositivo moderno con la última tecnología y la mejor calidad del mercado, equipado con cámara, flash de estudio, iluminación extra e impresora de alta definición para ofrecer una calidad de imagen profesional. Fotos impresionantes es una máquina construida por y para rodo eventos.
+                    En <span class="fw-bold">Rodo Eventos</span> ofrecemos la mejor solución para capturar los momentos más divertidos y memorables de tu evento.  Con nuestro fotomatón de última generación y un equipo de profesionales, aseguramos una experiencia única y sin problemas para ti y tus invitados. <br> <br>
+                    Nuestro objetivo es hacer que tu evento sea aún más inolvidable, proporcionándote un servicio profesional y personalizado para que puedas disfrutar de la fiesta sin preocupaciones.
                 </p>
 
 
@@ -54,23 +53,23 @@
 
                 <div class="col-12 col-lg-6">
                     <div class="lista">
-                        <p class="p-home">
+                        <p class="p-home-lista">
                             3 Horas de fotos y vídeos ilimitados
                         </p>
                     </div>
                     <div class="lista">
-                        <p class="p-home">
+                        <p class="p-home-lista">
                             Álbum clásico o personalizado
                         </p>
                     </div>
                     <div class="lista">
-                        <p class="p-home">
+                        <p class="p-home-lista">
                             Photocall seleccionable entre nuestros diseños
                         </p>
                     </div>
 
                     <div class="lista">
-                        <p class="p-home">
+                        <p class="p-home-lista">
                             Diseños y formatos de fotografías personalizados
                         </p>
                     </div>
@@ -79,18 +78,23 @@
                 <div class="col-12 col-lg-6">
 
                     <div class="lista">
-                        <p class="p-home">
+                        <p class="p-home-lista">
                             Atrezo divertido y tematizado
                         </p>
                     </div>
                     <div class="lista">
-                        <p class="p-home">
+                        <p class="p-home-lista">
                             Galería privada en la web
                         </p>
                     </div>
                     <div class="lista">
-                        <p class="p-home">
+                        <p class="p-home-lista">
                             2 Azafatos que cuidarán todos los detalles
+                        </p>
+                    </div>
+                    <div class="lista">
+                        <p class="p-home-lista">
+                        Selección de filtros blanco y negro y sepia 
                         </p>
                     </div>
                 </div>
@@ -101,14 +105,19 @@
 
         <div class="row w-100 m-auto">
             <div class="col-12 position-relative">
-                <img src="assets/img/banner-solicita.png" class="img-fluid w-100 banner-solicita" style="max-height:500px" alt="">
+                <img src="assets/img/banner-eventos.jpeg" class="img-fluid w-100 banner-solicita" style="max-height:500px" alt="">
+                <img src="assets/img/banner-eventos-2.jpg" class="img-fluid w-100 banner-solicita1 d-flex d-md-none" style="max-height:500px" alt="">
+
             </div>
 
-            <div class="col-12 col-lg-4 d-flex flex-column my-auto py-5 mx-auto">
-                <h2 class="h2-banner-solicita">Solicita nuestro pack para de eventos </h2>
+            <div class="col-12 col-lg-6 d-flex flex-column my-auto py-3 py-lg-5 mx-auto">
+                <h2 class="h2-banner-solicita">Solicita nuestro pack <br> para eventos</h2>
                 <hr class="hr-pack">
                 <h4 class="h4-banner-solicita">Haz de tu evento un dia inolvidable</h4>
                 <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto mt-3">Reservar ahora</a>
+            </div>
+            <div class="col-12 position-relative">
+                <img src="assets/img/banner-eventos-3.jpg" class="img-fluid w-100 banner-solicita2 d-flex d-md-none" style="max-height:500px" alt="">
             </div>
 
 
@@ -118,66 +127,37 @@
     <div class="container">
         <div class="row mt-5">
             <h2 class="titulo1 text-center">
-                ¿EN QUÉ CONSISTE EL ALQUILER DE FOTOMATÓN PARA EVENTOS?
+                ¿EN QUÉ CONSISTE El FOTOMATÓN PARA EVENTOS?
             </h2>
             <div class="col-12 col-lg-6">
                 <p class="p-home mt-3">
-                Nuestro Pack de eventos consiste en el <b>alquiler de un fotomatón</b> de tres horas de duración, hay posibilidad de horas extras si lo necesitas, nos adaptamos a las necesidades de cada evento, para garantizar que todo estará perfecto en un día tan importante para las organizaciones. 
+                    Nuestro Pack de eventos consiste en <b> un fotomatón y photocall </b> con tres horas de duración, hay posibilidad de horas extras si lo necesitáis, nos adaptamos al temática de tu boda para garantizar que todo estará perfecto en el que será uno de los días más importantes de vuestras vida.
                 </p>
                 <p class="p-home mt-3">
-                Con nuestro <b> fotomaton para eventos </b>se podrán realizar fotografías, videos y gift ilimitados, garantizando el buen ambiente y aportando un toque de diversión. Puedes crear comunidad entre tus empleados y mejorar la imagen de tu marca. 
+                    El primer paso, es elegir entre los diferentes photocall según vuestra temática, lo acompañareis de nuestros photocall diseños de fotografías únicos, originales y personalizados con vuestro nombre y fecha.
                 </p>
                 <p class="p-home mt-3">
-                Gracias a nuestro software de última generación os ofrecemos múltiples <b> opciones de personalización</b>, podéis incluir en las fotografías el diseño que queráis, con vuestro logo, fecha, lema corporativo, etc., además después del evento tus invitados podrán subir esas fotos a sus redes sociales.
+                    A vuestro evento irán dos azafatos, profesionales y uniformados, que instalaran el fotomaton de boda en el lugar que se haya acordado. Durante el servicio tendréis total libertad para realizar divertidas fotografías, videos y gifs de forma ilimitada. Ambos azafatos se encargaran de que todo funcione perfectamente, además animaran a tus invitados a participar y dejar una dedicatoria en el álbum de fotos.
                 </p>
             </div>
             <div class="col-12 col-lg-6">
                 <p class="p-home mt-3">
-                A vuestro evento irán dos azafatos, profesionales y uniformados, que instalaran el fotomaton en el lugar que se haya acordado. Durante el servicio tendréis total libertad para realizar divertidas fotografías, videos y gifs de forma ilimitada. Ambos azafatos se encargaran de que todo funcione perfectamente, además animaran a tus invitados a participar.
+                    Contaréis con un atrezzo de fotomaton variado para que vuestros invitados se disfracen e inmortalizar cada momento en formato, foto o vídeo de una manera divertida y original.
                 </p>
                 <p class="p-home mt-3">
-                Contaréis con un atrezo variado para que vuestros invitados se disfracen e inmortalizar cada momento en formato, foto, vídeo o gif de una manera divertida y original. 
+                    Os entregaremos un Álbum de firmas con todas las fotografias y dedicatorias. Tanto vosotros como vuestros invitados dispondréis de una galería privada en nuestra página web para descargar todas las fotografías y vídeos del evento. Podéis compartir ese bonito recuerdo en sus Redes Sociales a máxima calidad.
                 </p>
                 <p class="p-home mt-3 fw-bold">
-                    Ofrecemos nuestros servicios de alquiler de fotomaton y photocall en:
+                    Ofrecemos nuestros servicios de fotomaton y photocall en:
                 </p>
-                <ul class="list-style-none">
-                    <li>
-                        <p class="p-home fw-bold">
-                            Málaga
-                        </p>
-                    </li>
-                    <li>
-                        <p class="p-home fw-bold">
-                            Granada
-                        </p>
-                    </li>
-                    <li>
-                        <p class="p-home fw-bold">
-                            Jaén
-                        </p>
-                    </li>
-                    <li>
-                        <p class="p-home fw-bold">
-                            Córdoba
-                        </p>
-                    </li>
-                    <li>
-                        <p class="p-home fw-bold">
-                            Sevilla
-                        </p>
-                    </li>
-                    <li>
-                        <p class="p-home fw-bold">
-                            Y muchos sitios mas, no dudes en consultarnos.
-                        </p>
-                    </li>
-                </ul>
+                <p class="p-home mt-3">
+                    Málaga, Granada, Córdoba, Jaén, Murcia y muchos más.
+                </p>
             </div>
             <div class="col-12 col-md-4 mx-auto d-flex">
-            <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto mt-3">Consultanos</a>
+                <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto mt-3">Consultanos</a>
             </div>
-           
+
         </div>
     </div>
     <div class="container mt-5">
@@ -252,7 +232,9 @@
     ?>
     <?php
     include 'inc/footer.php';
-    ?>
+    ?><script>
+    $('#eventos').addClass('active');
+</script>
 </body>
 
 </html>

@@ -3,7 +3,7 @@
         <div class="row ">
             <div class="col-12 col-md-4 ">
                 <h2 class="h2-footer text-center text-lg-start">RODO EVENTOS</h2>
-                <p class="p-footer">Ofrecemos servicios de alquiler de fotomatón y photocall para bodas, cumpleaños, comuniones, bautizos y eventos corporativos. En Málaga, Granada, Córdoba, Jaén, Madrid y Toledo.</p>
+                <p class="p-footer">Ofrecemos servicios de fotomatón y photocall para bodas, cumpleaños, comuniones, bautizos, cenas de empresa y eventos corporativos. <br> En Málaga, Granada, Córdoba, Jaén, Murcia y muchos más.</p>
                
             </div>
             <div class="col-6 mx-auto col-md-3 pt-3 pt-lg-0">
@@ -16,7 +16,7 @@
                         <a class="text-decoration-none link-footer" href="eventos.php">Eventos</a>
                     </li>
                     <li>
-                        <a class="text-decoration-none link-footer" href="servicios.php#fotomaton360">Fotomatónn 360<sup>º</sup></a>
+                        <a class="text-decoration-none link-footer" href="servicios.php#fotomaton360">Plataforma 360<sup>º</sup></a>
                     </li>
                     <li>
                         <a class="text-decoration-none link-footer" href="servicios.php#fotomaton">Fotomatón</a>
