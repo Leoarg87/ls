@@ -25,7 +25,7 @@ echo "aqui";
 
       $mail->isSMTP(); 
       $mail->Host       = $host_smtp;
-      $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
+      // $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
       $mail->SMTPAuth   = true;
       $mail->Username   = $login_smtp; // SMTP account username
       $mail->Password   = $password_smtp;        // SMTP account password
