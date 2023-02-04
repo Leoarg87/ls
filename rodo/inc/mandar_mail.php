@@ -70,7 +70,7 @@
 
 
  $contenido_asunto =  "este mensaje fue enviado en la web";
- $destinatario_email     =    "leoarielgarcia87@gmail.com";
+ $destinatario_email     =    "hola@leoscandura.es";
  $destinatario_nombre     =    "Leonardo Scandura";
 $remitente_email = "hola@leoscandura.es";
 $nombre="Rodo";
