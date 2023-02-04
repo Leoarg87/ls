@@ -11,11 +11,11 @@
   $error = "";
 
   function mail_phpmailer_2018($destinatario_email, $destinatario_nombre, $remitente_email, $nombre, $contenido_asunto, $contenido_html){
-
+echo "aqui";
       global $error;
 
       $host_smtp         = "smtp.hostinger.com";
-      $login_smtp        = "hola@leoscandura.com";
+      $login_smtp        = "hola@leoscandura.es";
       $password_smtp     = "LiceoRC4";
 
       // $host_smtp 		  = "smtp.ionos.es";
