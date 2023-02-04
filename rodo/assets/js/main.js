@@ -193,7 +193,7 @@ $('.opiniones').slick({
       console.log("js")
       $.ajax({
         type: "POST",
-        url: "../mandar_mail.php",
+        url: "mandar_mail.php",
         data: $("#form_contacto").serialize(),
         success: function (data) {
           
