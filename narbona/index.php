@@ -119,7 +119,7 @@
             <img src="img/separador.jpg" class="img-fluid py-3" alt="">
 
             <div class="row py-5" id="tintos">
-                <h1 class="text-center red pb-5">D.O.ca Ribera del duero</h1>
+                <h1 class="text-center red pb-5">D.O. Ribera del duero</h1>
                 <div class="col-12 d-flex justify-content-center flex-column flex-lg-row  riojas">
                     <div class="col-12 col-lg-3 d-flex flex-column align-items-center">
                         <a type="button" class="position-relative text-decoration-none" data-bs-toggle="modal" data-bs-target="#cosoviejo-joven-ribera">
@@ -243,7 +243,7 @@
 
 
             <div class="row py-5 blancos">
-                <h1 class="text-center white pb-5">Verdejo</h1>
+                <h1 class="text-center white pb-5">Rueda</h1>
                 <div class="col-12 d-flex justify-content-center flex-column flex-lg-row  riojas">
 
 
@@ -280,7 +280,7 @@
             </div>
             <img src="img/separador.jpg" class="img-fluid py-3" alt="">
             <div class="row py-5 blancos">
-                <h1 class="text-center white pb-5">Fino de Jerez</h1>
+                <h1 class="text-center white pb-5">Jerez Sherry</h1>
                 <div class="col-12 d-flex justify-content-center flex-column flex-lg-row  riojas">
 
 
