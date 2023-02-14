@@ -14,18 +14,20 @@
     ?>
     <div class="container-fluid px-0 position-relative">
 
-        <div class="bg-servicios">
-
+        <div class="bg-servicios-360">
+            <div class="d-flex aling-items-center h-100 col-12 col-lg-6 justify-content-center mx-auto">
+                <img src="assets/img/logo-png.png" class="img-fluid logo-png" alt="">
+            </div>
         </div>
     </div>
 
-    
+
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-10  mx-auto">
-            <h2 class="h2-carousel fs-1 my-5 h1">Plataforma 360<sup>º</sup></h2>
-            <img src="assets/img/plataforma360.jpg" class="img-fluid" alt="">
-                
+                <h2 class="h2-carousel fs-1 my-5 h1">Plataforma 360<sup>º</sup></h2>
+                <img src="assets/img/plataforma360.jpg" class="img-fluid" alt="">
+
                 <p class="p-servicios text-start mt-5">
                     Sorprende a tus invitados con nuestra plataforma giratoria 360º
 
@@ -35,7 +37,7 @@
                 <p class="p-servicios text-start">
                     Múltiples formatos, como Slow Motion, convertirán tu evento en algo mágico desde todos los ángulos eligiendo la velocidad, la música y el diseño que más te guste.
                 </p>
-                
+
                 <h6 class="titulo2 my-5 fs-3">¿Que es la plataforma 360º?</h6>
                 <p class="p-servicios text-start">
                     Es un dispositivo compuesto por una plataforma y un mástil que gira alrededor de si misma. <br><br>
@@ -61,7 +63,7 @@
             </div>
         </div>
     </div>
-    
+
 
 
 

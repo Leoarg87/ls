@@ -14,7 +14,10 @@
     ?>
     <div class="container-fluid px-0 position-relative">
 
-        <div class="bg-servicios">
+        <div class="bg-servicios-neones">
+        <div class="d-flex aling-items-center h-100 col-12 col-lg-6 justify-content-center mx-auto">
+                <img src="assets/img/logo-png.png" class="img-fluid logo-png" alt="">
+            </div>
 
         </div>
     </div>
@@ -26,6 +29,7 @@
             <h2 class=" text-center">
                 Actualmente esta pagina esta en desarrollo. 
             </h2>
+            <img src="assets/img/banner-neones.jpg" class="img-fluid d-flex mx-auto my-5" alt="">
             <p class=" text-center">
                 Preferimos no publicar un producto que no esta acabado al 100%.
                 <br>

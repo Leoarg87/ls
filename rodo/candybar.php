@@ -14,7 +14,7 @@
     ?>
     <div class="container-fluid px-0 position-relative">
 
-        <div class="bg-servicios">
+        <div class="bg-servicios-candy">
 
         </div>
     </div>
@@ -23,7 +23,7 @@
         <div class="row">
             <div class="col-12 col-lg-10 mx-auto">
                 <h2 class="h2-carousel fs-1">Candy Bar</h2>
-                <img src="assets/img/candy-bar.jpg" class="img-fluid d-flex mx-auto my-5" alt="" style="max-height:450px">
+                <img src="assets/img/banner-candy.jpg" class="img-fluid d-flex mx-auto my-5" alt="" style="max-height:450px">
                 <p class="p-servicios">
                     Nuestro carrito puede usarse para varios momentos en un mismo evento, totalmente personalizado a tu gusto y siguiendo la temática deseada para que tu celebración sea única e inolvidable.
                 </p>

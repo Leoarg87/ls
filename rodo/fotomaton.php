@@ -14,7 +14,10 @@
     ?>
     <div class="container-fluid px-0 position-relative">
 
-        <div class="bg-servicios">
+        <div class=" bg-servicios-fotomaton">
+            <div class="d-flex aling-items-center h-100 col-12 col-lg-6 justify-content-center mx-auto">
+            <img src="assets/img/logo-png.png" class="img-fluid logo-png"alt="">
+            </div>
 
         </div>
     </div>
@@ -22,8 +25,8 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-10  mx-auto">
-                <h2 class="h2-carousel fs-1  my-5 h1">Fotomatón</h2>
-                <img src="assets/img/carousel/12.jpg" class="img-fluid" alt="">
+                <h2 class="h2-carousel fs-1  mt-5 h1">Fotomatón</h2>
+                <img src="assets/img/banner-fotomatón.jpg" class="img-fluid" alt="">
 
                 <h6 class="titulo2 my-5 fs-3">¿En que consiste el fotomatón?</h6>
                 <p class="p-servicios text-start">

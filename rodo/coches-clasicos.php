@@ -14,7 +14,10 @@
     ?>
     <div class="container-fluid px-0 position-relative">
 
-        <div class="bg-servicios">
+        <div class="bg-servicios-coches">
+        <div class="d-flex aling-items-center h-100 col-12 col-lg-6 justify-content-center mx-auto">
+                <img src="assets/img/logo-png.png" class="img-fluid logo-png" alt="">
+            </div>
 
         </div>
     </div>
@@ -23,6 +26,7 @@
         <div class="row">
             <div class="col-12  col-lg-10 mx-auto">
                 <h2 class="h2-carousel my-5 fs-1">Coches Clásicos</h2>
+                <img src="assets/img/banner-coche.jpg" class="img-fluid mb-5" alt="">
                 <p class="p-servicios text-center">
                     COCHES CLÁSICOS PARA BODAS, EVENTOS, RODAJES Y SESIONES DE FOTOS
                 </p>
