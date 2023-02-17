@@ -21,13 +21,13 @@
                 <h1 class="titulo1 text-uppercase text-center">Galeria de fotos</h1>
 
             </div>
-            <div class="col-4">
+            <div class="col-2 col-lg-4">
                 <hr class="hr-bodas">
             </div>
-            <div class="col-4 mb-5">
+            <div class="col-8 col-lg-4 mb-5">
                 <h2 class="titulo1 text-uppercase text-center">BODAS</h2>
             </div>
-            <div class="col-4">
+            <div class="col-2 col-lg-4">
                 <hr class="hr-bodas">
             </div>
 
@@ -77,13 +77,13 @@
             </div>
         </div>
         <div class="row py-5 mt-5">
-            <div class="col-4">
+            <div class="col-2 col-lg-4">
                 <hr class="hr-bodas">
             </div>
-            <div class="col-4 mb-5">
+            <div class="col-8 col-lg-4 mb-5">
                 <h2 class="titulo1 text-uppercase text-center">EVENTOS</h2>
             </div>
-            <div class="col-4">
+            <div class="col-2 col-lg-4">
                 <hr class="hr-bodas">
             </div>
 
