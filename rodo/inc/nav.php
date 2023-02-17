@@ -23,7 +23,7 @@
                 <li><a class="dropdown-item text-center" href="plataforma.php" id="plataforma">Plataforma 360 <sup>º</sup></a></li>
                 <li><a class="dropdown-item text-center" href="candybar.php" id="candybar">Candy Bar</a></li>
                 <li><a class="dropdown-item text-center" href="coches-clasicos.php" id="coches-clasicos">Coches Clásicos</a></li>
-                <li><a class="dropdown-item text-center" href="autobus.php" id="autobus">Photo Bus</a></li>
+                <li><a class="dropdown-item text-center" href="autobus.php" id="autobus">PhotosBus</a></li>
                 <li><a class="dropdown-item text-center" href="shishas-vapers.php" id="shishas-vapers">Shishas & Vapers</a></li>
                 <li><a class="dropdown-item text-center" href="neones.php" id="neones">Neones</a></li>
               </ul>

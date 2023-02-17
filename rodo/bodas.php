@@ -31,13 +31,13 @@
 
 
             </div>
-            <div class="col-4">
+            <div class="col-2 col-lg-4">
                 <hr class="hr-bodas">
             </div>
-            <div class="col-4">
+            <div class="col-8 col-lg-4">
                 <h2 class="titulo1 text-uppercase text-center">Pack bodas</h2>
             </div>
-            <div class="col-4">
+            <div class="col-2 col-lg-4">
                 <hr class="hr-bodas">
             </div>
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
@@ -49,7 +49,7 @@
             </div>
             <div class="col-12 col-lg-8 row  mx-auto">
 
-                <h6 class="incluye px-5 pb-3 text-center">¿Qué incluye?</h6>
+            <h3 class="h2-carousel fs-1  mt-5 h1 mb-5">¿Qué incluye?</h6>
 
                 <div class="col-12 col-md-6 col-lg-6  ps-5 d-flex flex-column  mx-auto ">
                     <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">

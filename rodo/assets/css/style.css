@@ -253,6 +253,16 @@ body {
   font-weight: 900;
 }
 /* flip card */
+
+.flip3Dfake {
+  width: 350px;
+  height: 480px;
+  font-size: 16pt;
+  font-family: open sans;
+  font-weight: 300;
+  display: flex;
+  margin: 0 auto;
+}
 .flip3D {
   width: 350px;
   height: 480px;
@@ -323,6 +333,26 @@ body {
 .flip3D:hover .back {
   -webkit-transform: perspective(8000px) rotateY(0deg);
   transform: perspective(8000px) rotateY(0deg);
+}
+a{
+  text-decoration: none;
+}
+.area-privada img{
+  max-height: 277px;
+  object-fit: cover;
+}
+.titulo-card-privada{
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  top: 0;
+  display: flex;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-primary);
+  font-family: "poppins";
+  text-decoration: none;
 }
 .titulo-flip {
   z-index: 4;
@@ -559,7 +589,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 250px;
   position: relative;
   z-index: 1;
 }
@@ -568,16 +598,16 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 250px;
   position: relative;
   z-index: 1;
 }
 .bg-servicios-neones {
   background-image: url(../img/foto-neones.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
-  height: 300px;
+  height: 250px;
   position: relative;
   z-index: 1;
 }
@@ -586,7 +616,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 250px;
   position: relative;
   z-index: 1;
 }
@@ -595,7 +625,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 250px;
   position: relative;
   z-index: 1;
 }
@@ -604,7 +634,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 250px;
   position: relative;
   z-index: 1;
 }
@@ -613,7 +643,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 300px;
+  height: 250px;
   position: relative;
   z-index: 1;
 }
@@ -673,6 +703,9 @@ body {
   line-height: 25px;
   font-family: "Source Sans Pro";
 }
+.bg-crema{
+  background-color: #d1b4aa;
+}
 /* SERVICIOS */
 @media (max-width: 1400px) {
   .titulo-opiniones {
@@ -710,6 +743,12 @@ body {
 }
 
 @media (max-width: 767px) {
+  .slick-next{
+    right:0;
+  }
+  .slick-prev{
+    left: 0;
+  }
   .sticky-top {
     background-color: rgb(209, 180, 170);
   }

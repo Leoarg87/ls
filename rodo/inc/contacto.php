@@ -9,7 +9,7 @@
             ¡DEJA LA DIVERSIÓN EN NUESTRAS MANOS!
 
              </h6>
-            <form id="form_contacto" onsubmit="return false;" class="row px-3">
+            <form id="form_contacto"  onsubmit="return false;" class="w-100 mx-auto row px-3">
                 <div class="col-12 col-lg-6 mb-3">
                     <label for="nombre" class="form-label">Nombre</label>
                     <input type="name" class="form-control" name="nombre" id="nombre">

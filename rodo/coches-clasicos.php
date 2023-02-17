@@ -27,8 +27,8 @@
             <div class="col-12  col-lg-10 mx-auto">
                 <h2 class="h2-carousel my-5 fs-1">Coches Clásicos</h2>
                 <img src="assets/img/banner-coche.jpg" class="img-fluid mb-5" alt="">
-                <p class="p-servicios text-center">
-                    COCHES CLÁSICOS PARA BODAS, EVENTOS, RODAJES Y SESIONES DE FOTOS
+                <h3 class="h2-carousel fs-1  mt-5 h1 mb-3">
+                    Coches clásicos para bodas, eventos, rodajes y sesiones de fotos
                 </p>
                 <p class="p-servicios text-center">
                     En rodo eventos ponemos a tu disposición una colección de los mejores coches clásicos para bodas, eventos, sesiones de fotos, rodajes de películas, anuncios publicitarios o decoración de espacios.
@@ -36,7 +36,7 @@
                 <p class="p-servicios text-center">
                     El alquiler de coches clásico incluye un chofer que se encargará de todos los detalles y ayudará para que todo salga perfecto. Sea cual sea tu necesidad de alquiler, ponte en contacto con nosotros y adaptaremos un servicio acorde a tus necesidades y exigencias.
                 </p>
-                <h2 class="h2-coches text-center pt-5">
+                <h3 class="h2-carousel fs-1  mt-5 h1 mb-3">
                     Nuestros Coches
                 </h2>
             </div>
@@ -118,7 +118,7 @@
                         <div class="row ">
                             <div class="col-10 d-flex flex-column mx-auto justify-content-center py-3">
                                 <h4 class="h4-coches text-center">
-                                    MINI COOPER
+                                    Mini Cooper
                                 </h4>
                                 <p class="p-coches text-center">
                                     El cásico por excelencia, el MINI COOPER se ha convertido en todo un símbolo de la automoción que perdura en el tiempo. El diseño único, elegante y compacto de la afamada marca británica, hace que esta reliquia sea indispensable en nuestra colección.
@@ -207,6 +207,18 @@
 
                     </div>
                 </div>
+                <div class="col-12 col-lg-8 mx-auto">
+
+                <p class="p-servicios pt-3">Combina este servicio con otro y consigue una tarifa especial</p>
+
+                <p class="p-servicios text-start">Para que tu evento sea todo un éxito, puedes crear un pack con varios de nuestros servicios: coches clásicos, neones, vapers , plataforma 360º, fotomatón, carrito candy bar, camper. Para solicitar un presupuesto totalmente personalizado, puedes ponerte en contacto con nosotros rellenando el siguiente formulario, llamándonos por teléfono o por Whatsapp.</p>
+                <h5 class="text-center">
+                    Haz que tu evento marque la diferencia
+                </h5>
+                <div class="w-auto bg-crema rounded-5 mt-5">
+                    <img src="assets/img/logo-png.png" alt="" class="img-fluid">
+                </div>
+            </div>
             </div>
         </div>
     </div>
