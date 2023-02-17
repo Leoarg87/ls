@@ -105,7 +105,7 @@
                 <h5 class="text-center">
                     Haz que tu evento marque la diferencia
                 </h5>
-                <div class="w-auto bg-crema rounded-5 mt-5">
+                <div class="w-auto bg-crema rounded-5 mt-5 d-none d-md-block">
                     <img src="assets/img/logo-png.png" alt="" class="img-fluid">
                 </div>
 

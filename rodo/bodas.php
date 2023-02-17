@@ -15,7 +15,9 @@
     <div class="container-fluid px-0 position-relative">
 
         <div class="bg-bodas">
-
+        <div class="d-flex aling-items-center h-100 col-12 col-lg-6 justify-content-center mx-auto">
+                <img src="assets/img/logo-png.png" class="img-fluid logo-png" alt="">
+            </div>
         </div>
     </div>
 
@@ -135,7 +137,7 @@
     <div class="container">
         <div class="row mt-5">
             <h2 class="titulo1 text-center">
-                ¿EN QUÉ CONSISTE El FOTOMATÓN PARA BODAS?
+            ¿En qué consiste el fotomatón para bodas?
             </h2>
             <div class="col-12 col-lg-6">
                 <p class="p-home mt-3">

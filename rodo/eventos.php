@@ -15,7 +15,9 @@
     <div class="container-fluid px-0 position-relative">
 
         <div class="bg-eventos">
-
+        <div class="d-flex aling-items-center h-100 col-12 col-lg-6 justify-content-center mx-auto">
+                <img src="assets/img/logo-png.png" class="img-fluid logo-png" alt="">
+            </div>
         </div>
     </div>
 
@@ -49,7 +51,7 @@
             </div>
             <div class="col-12 col-lg-8 row  mx-auto">
 
-            <h3 class="h2-carousel fs-1  mt-5 h1 mb-5">¿Qué incluye?</h6>
+            <h3 class="h2-carousel fs-1  h1 mt-5">¿Qué incluye?</h6>
 
                 <div class="col-12 col-md-6 col-lg-6  ps-5 d-flex flex-column  mx-auto ">
                     <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
@@ -135,7 +137,8 @@
     <div class="container">
         <div class="row mt-5">
             <h2 class="titulo1 text-center">
-                ¿EN QUÉ CONSISTE El FOTOMATÓN PARA EVENTOS?
+                
+                ¿En qué consiste el fotomatón para eventos?
             </h2>
             <div class="col-12 col-lg-6">
                 <p class="p-home mt-3">
