@@ -148,25 +148,25 @@
                     El primer paso, es elegir entre los diferentes photocall según vuestra temática, lo acompañareis de nuestros photocall diseños de fotografías únicos, originales y personalizados con vuestro nombre y fecha.
                 </p>
                 <p class="p-home mt-3">
-                    A vuestro evento irán dos azafatos, profesionales y uniformados, que instalaran el fotomaton de boda en el lugar que se haya acordado. Durante el servicio tendréis total libertad para realizar divertidas fotografías, videos y gifs de forma ilimitada. Ambos azafatos se encargaran de que todo funcione perfectamente, además animaran a tus invitados a participar y dejar una dedicatoria en el álbum de fotos.
+                    A vuestro evento irán dos azafatos, profesionales y uniformados, que instalaran el fotomatón de boda en el lugar que se haya acordado. Durante el servicio tendréis total libertad para realizar divertidas fotografías, videos y gifs de forma ilimitada. Ambos azafatos se encargaran de que todo funcione perfectamente, además animaran a tus invitados a participar y dejar una dedicatoria en el álbum de fotos.
                 </p>
             </div>
             <div class="col-12 col-lg-6">
                 <p class="p-home mt-3">
-                    Contaréis con un atrezzo de fotomaton variado para que vuestros invitados se disfracen e inmortalizar cada momento en formato, foto o vídeo de una manera divertida y original.
+                    Contaréis con un atrezzo de fotomatón variado para que vuestros invitados se disfracen e inmortalizar cada momento en formato, foto o vídeo de una manera divertida y original.
                 </p>
                 <p class="p-home mt-3">
-                    Os entregaremos un Álbum de firmas con todas las fotografias y dedicatorias. Tanto vosotros como vuestros invitados dispondréis de una galería privada en nuestra página web para descargar todas las fotografías y vídeos del evento. Podéis compartir ese bonito recuerdo en sus Redes Sociales a máxima calidad.
+                    Os entregaremos un Álbum de firmas con todas las fotografías y dedicatorias. Tanto vosotros como vuestros invitados dispondréis de una galería privada en nuestra página web para descargar todas las fotografías y vídeos del evento. Podéis compartir ese bonito recuerdo en sus Redes Sociales a máxima calidad.
                 </p>
                 <p class="p-home mt-3 fw-bold">
-                    Ofrecemos nuestros servicios de fotomaton y photocall en:
+                    Ofrecemos nuestros servicios de fotomatón y photocall en:
                 </p>
                 <p class="p-home mt-3">
                     Málaga, Granada, Córdoba, Jaén, Murcia y muchos más.
                 </p>
             </div>
             <div class="col-12 col-md-4 mx-auto d-flex">
-                <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto mt-3">Consultanos</a>
+                <a href="https://wa.me//+34626250105" target="blank" class="btn reservar mx-auto mt-3">Consúltenos</a>
             </div>
 
         </div>

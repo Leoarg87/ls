@@ -27,10 +27,10 @@
             <!-- <div class="col-12 col-xl-4 my-3">
                 <a href="https://rodoeventos.smugmug.com/Bodas-2023" class="3Dfake" target="blank">
                    
-                    <div class="">
-                        <img src="assets/img/boda.jpg" class="img-fluid w-100" alt="">
-                        <h2 class="titulo-card-privada">Bodas 2023</h2>
-                    </div>
+                    <div class="card-areaprivada" st position-relativeyle="background-image:url(assets/img/boda.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                        
+                        <h2 class="titulo-flip">Bodas 2023</h2>
+                        </div>
                 </a>
 
 
@@ -39,30 +39,30 @@
             <div class="col-12 col-xl-4 my-3">
                 <a href="https://rodoeventos.smugmug.com/Bodas-2022" class="3Dfake" target="blank">
                    
-                    <div class="">
-                        <img src="assets/img/2022.jpg" class="img-fluid w-100" alt="">
-                        <h2 class="titulo-card-privada">Bodas 2022</h2>
-                    </div>
+                    <div class="card-areaprivada position-relative" style="background-image:url(assets/img/2022.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                        
+                    <h2 class="titulo-flip">Bodas 2022</h2>
+                </div>
                 </a>
 
             </div>
             <div class="col-12 col-xl-4 my-3">
                 <a href="https://rodoeventos.smugmug.com/Bodas-2021" class="3Dfake" target="blank">
                    
-                    <div class="">
-                        <img src="assets/img/2021.jpg" class="img-fluid w-100" alt="">
-                        <h2 class="titulo-card-privada">Bodas 2021</h2>
-                    </div>
+                    <div class="card-areaprivada position-relative" style="background-image:url(assets/img/2021.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                        
+                    <h2 class="titulo-flip">Bodas 2021</h2>
+                </div>
                 </a>
 
             </div>
             <div class="col-12 col-xl-4 my-3">
                 <a href="https://rodoeventos.smugmug.com/Bodas-2020" class="3Dfake" target="blank">
                    
-                    <div class="">
-                        <img src="assets/img/2020.jpg" class="img-fluid w-100" alt="">
-                        <h2 class="titulo-card-privada">Bodas 2020</h2>
-                    </div>
+                    <div class="card-areaprivada position-relative" style="background-image:url(assets/img/2020.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                        
+                    <h2 class="titulo-flip">Bodas 2020</h2>
+                </div>
                 </a>
 
 
@@ -71,20 +71,20 @@
             <div class="col-12 col-xl-4 my-3">
                 <a href="https://rodoeventos.smugmug.com/Bodas-2019" class="3Dfake" target="blank">
                    
-                    <div class="">
-                        <img src="assets/img/2019.jpg" class="img-fluid w-100" alt="">
-                        <h2 class="titulo-card-privada">Bodas 2019</h2>
-                    </div>
+                    <div class="card-areaprivada position-relative" style="background-image:url(assets/img/2019.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                        
+                    <h2 class="titulo-flip">Bodas 2019</h2>
+                </div>
                 </a>
 
             </div>
             <div class="col-12 col-xl-4 my-3">
                 <a href="https://rodoeventos.smugmug.com/Eventos" class="3Dfake" target="blank">
                    
-                    <div class="">
-                        <img src="assets/img/eventos-areaprivada.jpg" class="img-fluid w-100" alt="">
-                        <h2 class="titulo-card-privada">Eventos</h2>
-                    </div>
+                    <div class="card-areaprivada position-relative" style="background-image:url(assets/img/eventos-areaprivada.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;">
+                        
+                    <h2 class="titulo-flip">Eventos</h2>
+                </div>
                 </a>
 
             </div>

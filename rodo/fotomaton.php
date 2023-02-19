@@ -28,8 +28,8 @@
                 <h2 class="h2-carousel fs-1  mt-5 h1">Fotomatón</h2>
                 <img src="assets/img/banner-fotomatón.jpg" class="img-fluid" alt="">
 
-                <h3 class="h2-carousel fs-1  mt-5 h1 mb-3">¿En que consiste el fotomatón?</h6>
-                <p class="p-servicios text-start">
+                <!-- <h3 class="h2-carousel fs-1  mt-5 h1 mb-3">¿En que consiste el fotomatón?</h6> -->
+                <p class="p-servicios text-start mt-5">
                     Un fotomatón es una máquina fotográfica automatizada que permite a los usuarios tomar fotos de manera rápida y sencilla. <br><br>
 
                     Con una cámara incorporada de alta definición dotada de lentes de gran angular.<br><br>
@@ -55,9 +55,7 @@
                 <h5 class="text-center">
                     Haz que tu evento marque la diferencia
                 </h5>
-                <div class="w-auto bg-crema rounded-5 mt-5 d-none d-md-block">
-                    <img src="assets/img/logo-png.png" alt="" class="img-fluid">
-                </div>
+                
             </div>
         </div>
     </div>

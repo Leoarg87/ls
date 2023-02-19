@@ -234,7 +234,7 @@
                                                             MINI COOPER
                                                         </h4>
                                                         <p class="p-coches text-center">
-                                                            El cásico por excelencia, el MINI COOPER se ha convertido en todo un símbolo de la automoción que perdura en el tiempo. El diseño único, elegante y compacto de la afamada marca británica, hace que esta reliquia sea indispensable en nuestra colección.
+                                                            El clásico por excelencia, el MINI COOPER se ha convertido en todo un símbolo de la automoción que perdura en el tiempo. El diseño único, elegante y compacto de la afamada marca británica, hace que esta reliquia sea indispensable en nuestra colección.
                                                         </p>
                                                     </div>
                                                     <div class="col-12 col-md-6 py-3">
@@ -328,7 +328,7 @@
                             <div class="accordion-body">
                                 <div class="row">
                                     <div class="col-12 col-lg-6 mx-auto">
-                                        <h2 class="h2-carousel" id="heading5">Sisha & Vapers</h2>
+                                        <h2 class="h2-carousel" id="heading5">Shishas & Vapers</h2>
                                         <p class="p-servicios">
                                             falta texto
                                         </p>

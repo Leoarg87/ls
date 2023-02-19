@@ -262,7 +262,7 @@
                 <div class="flip3D">
                     <div class="back d-flex justify-content-center flex-column">
                         <h2 class="text-center pt-5">Plataforma 360</h2>
-                        <p class="text-center my-auto px-3">Sorprende a tus invitados con nuestra plataforma giratoria 360, crea videos original desde todos los ángulos, elige la velocidad, la musica y el diseño que mas te guste. Hará de tu evento algo mágico.</p>
+                        <p class="text-center my-auto px-3">Sorprende a tus invitados con nuestra plataforma giratoria 360, crea videos original desde todos los ángulos, elige la velocidad, la música y el diseño que mas te guste. Hará de tu evento algo mágico.</p>
                     </div>
                     <div class="front">
                         <img src="assets/img/360.jpeg" class="img-fluid w-100" alt="">
@@ -349,7 +349,7 @@
                         </div>
                         <div class="d-flex"><img src="assets/img/opiniones/estrellas1.png" class="img-fluid" alt=""></div>
                         <div class="d-flex justify-content-center pb-3">
-                            <h2 class="titulo-opiniones text-center">Superdivertidos</h2>
+                            <h2 class="titulo-opiniones text-center">Super divertidos</h2>
                         </div>
                         <div class="d-flex">
                             <p class="p-opioniones px-3">
@@ -388,7 +388,7 @@
     <!-- SnapWidget -->
 
     <div class="container d-lg-flex d-none">
-        <h2 class="titulo2 mb-5">Siguenos en instagram</h2>
+        <h2 class="titulo2 mb-5">Síguenos en instagram</h2>
         <div class="d-lg-flex d-none ">
 
             <!-- SnapWidget -->

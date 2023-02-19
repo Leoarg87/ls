@@ -18,7 +18,7 @@
         <div class="row">
 
             <div class="col-12 col-lg-9  py-5  mx-auto">
-                <h1 class="titulo1 text-uppercase text-center">Galeria de fotos</h1>
+                <h1 class="titulo1 text-uppercase text-center">Galería de fotos</h1>
 
             </div>
             <div class="col-2 col-lg-4">

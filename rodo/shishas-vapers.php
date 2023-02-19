@@ -27,7 +27,7 @@
             <h2 class="h2-carousel fs-1">Shishas & Vappers</h2>
             <img src="assets/img/banner-shishas.jpg" class="img-fluid d-flex mx-auto my-5" alt="">
             <div class="col-12 col-lg-8 mx-auto">
-            <h3 class="h2-carousel fs-1  h1 ">SHISHAS</h3>
+            <h3 class="h2-carousel fs-1  h1 ">Shishas</h3>
                 <p class="p-servicios text-start mt-5">
                     Nuestra experiencia organizando catering de shishas para tu eventos proporcionará un salto de calidad.
                 </p>
@@ -39,7 +39,7 @@
                 </p>
             </div>
             <div class="col-12 col-lg-8 mx-auto ">
-            <h3 class="h2-carousel fs-1  h1 mt-5">VAPERS</h3>
+            <h3 class="h2-carousel fs-1  h1 mt-5">Vapers</h3>
                 <p class="p-servicios text-start mt-5">
                     Ofrecemos experiencias PREMIUM con una gran variedad de sabores y nos adaptamos a vuestras necesidades y gustos. </p>
 

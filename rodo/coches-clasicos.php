@@ -121,7 +121,7 @@
                                     Mini Cooper
                                 </h4>
                                 <p class="p-coches text-center">
-                                    El cásico por excelencia, el MINI COOPER se ha convertido en todo un símbolo de la automoción que perdura en el tiempo. El diseño único, elegante y compacto de la afamada marca británica, hace que esta reliquia sea indispensable en nuestra colección.
+                                    El clásico por excelencia, el MINI COOPER se ha convertido en todo un símbolo de la automoción que perdura en el tiempo. El diseño único, elegante y compacto de la afamada marca británica, hace que esta reliquia sea indispensable en nuestra colección.
                                 </p>
                             </div>
                             <div class="col-12 col-md-6 py-3">
@@ -215,9 +215,7 @@
                 <h5 class="text-center">
                     Haz que tu evento marque la diferencia
                 </h5>
-                <div class="w-auto bg-crema rounded-5 mt-5 d-none d-md-block">
-                    <img src="assets/img/logo-png.png" alt="" class="img-fluid">
-                </div>
+                
             </div>
             </div>
         </div>

@@ -594,7 +594,7 @@ a{
   z-index: 1;
 }
 .bg-servicios-photobus {
-  background-image: url(../img/banner-photobus.jpg);
+  background-image: url(../img/foto-photobus.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -603,7 +603,7 @@ a{
   z-index: 1;
 }
 .bg-servicios-neones {
-  background-image: url(../img/foto-neones.jpg);
+  background-image: url(../img/foto-neones.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -706,6 +706,25 @@ a{
 .bg-crema{
   background-color: #d1b4aa;
 }
+.card-areaprivada{
+  
+  width: 350px;
+  height: 480px;
+  font-size: 16pt;
+  flex-direction: column;
+  font-weight: 300;
+  display: flex;
+  margin: 0 auto;
+}.card-areaprivada::before{
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 480px;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  border-radius: inherit;
+}
+
 /* SERVICIOS */
 @media (max-width: 1400px) {
   .titulo-opiniones {

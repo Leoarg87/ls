@@ -47,7 +47,7 @@
 
                 <div class="mb-3 col-12  form-check ps-3">
                     <input type="checkbox" class="form-check-input ms-0 me-2" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Acepto la politica de privacidad</label>
+                    <label class="form-check-label" for="exampleCheck1">Acepto la política de privacidad</label>
                     <span class="msg-error error"></span>
                     <div id="recaptcha" class="g-recaptcha" data-sitekey="6LdwAYIiAAAAABzB02TUCn-ZrvX_Kenuc3Cwz0ca"></div>
                     <button type="submit"id="btn_form" class="btn btn-enviar mt-3 mt-lg-0">Enviar</button>
