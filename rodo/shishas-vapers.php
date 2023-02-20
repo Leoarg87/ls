@@ -24,9 +24,10 @@
 
     <div class="container py-5">
         <div class="row">
+            
+            <div class="col-12 col-lg-8 mx-auto">
             <h2 class="h2-carousel fs-1">Shishas & Vappers</h2>
             <img src="assets/img/banner-shishas.jpg" class="img-fluid d-flex mx-auto my-5" alt="">
-            <div class="col-12 col-lg-8 mx-auto">
             <h3 class="h2-carousel fs-1  h1 ">Shishas</h3>
                 <p class="p-servicios text-start mt-5">
                     Nuestra experiencia organizando catering de shishas para tu eventos proporcionará un salto de calidad.

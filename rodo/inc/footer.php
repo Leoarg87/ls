@@ -1,12 +1,12 @@
-<div class="container-fluid bg-primary py-5">
-    <div class="container py-lg-5 py-0">
+<div class="container-fluid bg-primary pt-5">
+    <div class="container pt-lg-5 py-0">
         <div class="row ">
             <div class="col-12 col-lg-4 ">
                 <h2 class="h2-footer text-center text-lg-start">RODO EVENTOS</h2>
                 <p class="p-footer">Ofrecemos servicios de fotomatón ,plataforma giratoria 360º, photocall y Photobus o campers con fotomatón para bodas, cumpleaños, comuniones, bautizos, cenas de empresa y eventos corporativos. <br> En Málaga, Granada, Córdoba, Jaén, Murcia y muchos más.</p>
                
             </div>
-            <div class="col-4 mx-auto col-lg-3 pt-3 pt-lg-0">
+            <div class="col-6 col-lg-3 pt-3 pt-lg-0">
                 <h2 class="h2-footer text-center">INFORMACIÓN</h2>
                 <ul class="ul-footer">
                     <li>
@@ -39,7 +39,7 @@
                 </ul>
 
             </div>
-            <div class="col-4 col-lg-2 pt-3 pt-lg-0">
+            <div class="col-6 col-lg-2 pt-3 pt-lg-0">
                 <h2 class="h2-footer text-center">SIGUENOS</h2>
                 <div class="d-flex justify-content-center gap-5 w-100">
 
@@ -58,7 +58,7 @@
                 </script>
 
             </div>
-            <div class="col-4 col-md-3 pt-3 pt-lg-0">
+            <div class="col-12 col-md-3 pt-3 pt-lg-0">
                 <h2 class="h2-footer text-center">CONTACTA</h2>
                 <div class="d-flex flex-column justify-content-center align-items-center gap-2  ">
 
@@ -66,6 +66,10 @@
                     <a class="link-footer text-decoration-none email" href="mailto:hola@rodoeventos.com">hola@rodoeventos.com</a>
 
                 </div>
+                
+            </div>
+            <div class="d-flex justify-content-center pt-5">
+            <p class="text-white">Desarrollado por: <a href="https://leoscandura.es/" class="link-footer text-white">Leonardo Scandura</a></p>
             </div>
         </div>
     </div>

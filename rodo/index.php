@@ -387,7 +387,7 @@
     </div>
     <!-- SnapWidget -->
 
-    <div class="container d-lg-flex d-none">
+    <div class="container d-lg-flex flex-lg-column d-none">
         <h2 class="titulo2 mb-5">Síguenos en instagram</h2>
         <div class="d-lg-flex d-none ">
 

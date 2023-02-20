@@ -23,10 +23,10 @@
 
     <div class="container py-5">
         <div class="row">
+            
+            <div class="col-12 col-lg-8 mx-auto">
             <h2 class="h2-carousel fs-1">Photobus</h2>
             <img src="assets/img/banner-photobus.jpg" class="img-fluid d-flex mx-auto my-5" alt="">
-            <div class="col-12 col-lg-8 mx-auto">
-
                 <p class="p-servicios text-start mt-5">
                     Como si de una cabina fotográfica se tratara, el photobus es el complemento perfecto para que tu evento sea diferente, original y divertido
 

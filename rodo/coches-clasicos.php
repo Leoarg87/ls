@@ -24,7 +24,7 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-12  col-lg-10 mx-auto">
+            <div class="col-12  col-lg-8 mx-auto">
                 <h2 class="h2-carousel my-5 fs-1">Coches Clásicos</h2>
                 <img src="assets/img/banner-coche.jpg" class="img-fluid mb-5" alt="">
                 <h3 class="h2-carousel fs-1  mt-5 h1 mb-3">

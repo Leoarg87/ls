@@ -25,7 +25,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-lg-8  mx-auto">
-                <h2 class="h2-carousel fs-1  mt-5 h1">Fotomatón</h2>
+                <h2 class="h2-carousel fs-1  my-5 h1">Fotomatón</h2>
                 <img src="assets/img/banner-fotomatón.jpg" class="img-fluid" alt="">
 
                 <!-- <h3 class="h2-carousel fs-1  mt-5 h1 mb-3">¿En que consiste el fotomatón?</h6> -->

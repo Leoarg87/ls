@@ -15,32 +15,34 @@
     <div class="container-fluid px-0 position-relative">
 
         <div class="bg-servicios-neones">
-        <div class="d-flex aling-items-center h-100 col-12 col-lg-6 justify-content-center mx-auto">
+            <div class="d-flex aling-items-center h-100 col-12 col-lg-6 justify-content-center mx-auto">
                 <img src="assets/img/logo-png.png" class="img-fluid logo-png" alt="">
             </div>
 
         </div>
     </div>
 
-   
 
-    <div class="container my-5" >
+
+    <div class="container my-5">
         <div class="row">
-            <h2 class=" text-center">
-                Actualmente esta pagina esta en desarrollo. 
-            </h2>
-            <img src="assets/img/banner-neones.jpg" class="img-fluid d-flex mx-auto my-5" alt="">
-            <p class=" text-center">
-                Preferimos no publicar un producto que no esta acabado al 100%.
-                <br>
-                Disculpa las molestias.
+            <div class="col-12 col-lg-8 mx-auto">
+                <h2 class=" text-center">
+                    Actualmente esta pagina esta en desarrollo.
+                </h2>
+                <img src="assets/img/banner-neones.jpg" class="img-fluid d-flex mx-auto my-5" alt="">
+                <p class=" text-center">
+                    Preferimos no publicar un producto que no esta acabado al 100%.
+                    <br>
+                    Disculpa las molestias.
 
-            </p>
+                </p>
 
-            <a href="index.php" class="text-center text-decoration-none text-black ">Volver al inicio</a>
+                
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- <div class="container py-5">
+        <!-- <div class="container py-5">
         <div class="row">
             <div class="col-12 col-lg-10 mx-auto">
                 <h2 class="h2-carousel fs-1">Neones</h2>
@@ -58,16 +60,16 @@
 
 
 
-    <?php
-    include 'inc/contacto.php';
-    ?>
-    <?php
-    include 'inc/footer.php';
-    ?>
-    <script>
-        $('#neones').addClass('active-servicio');
-        $('#servicios').addClass('active');
-    </script>
+        <?php
+        include 'inc/contacto.php';
+        ?>
+        <?php
+        include 'inc/footer.php';
+        ?>
+        <script>
+            $('#neones').addClass('active-servicio');
+            $('#servicios').addClass('active');
+        </script>
 </body>
 
 </html>

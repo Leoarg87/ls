@@ -21,10 +21,10 @@
 
     <div class="container py-5">
         <div class="row">
+           
+            <div class="col-12 col-lg-8 mx-auto">
             <h2 class="h2-carousel fs-1">Candy Bar</h2>
             <img src="assets/img/banner-candy.jpg" class="img-fluid d-flex mx-auto my-5" alt="" style="max-height:450px">
-            <div class="col-12 col-lg-8 mx-auto">
-
                 <p class="p-servicios text-start">
                     El motivo del éxito del carrito candy bar radica en el cuidado estético que le dedicamos para que tanto adultos y niños caigan en la tentación
                 </p>

@@ -39,7 +39,7 @@
           </div>
           <div class="col-12 col-lg-4 d-flex justify-content-between flex-column flex-lg-row">
             <a class="nav-link my-auto text-center text-lg-start" aria-current="page" id="galeria"href="galeria.php">Galería</a>
-            <a class="nav-link my-auto text-center text-lg-start" aria-current="page" id="area-privada"href="area-privada.php">Area privada</a>
+            <a class="nav-link my-auto text-center text-lg-start" aria-current="page" id="area-privada"href="area-privada.php">Área privada</a>
             <a class="nav-link my-auto text-center text-lg-start" aria-current="page"id="contacto" href="contacto.php">Contacto</a>
           </div>
         </div>
