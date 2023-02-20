@@ -15,7 +15,7 @@
      global $error;
      $paso ='Rodo2311.';
      $host_smtp         = "smtp.hostinger.com";
-     $login_smtp        = "hola@rodoevento.com";
+     $login_smtp        = "hola@rodoeventos.com";
      $password_smtp     = $paso;
      $nombre   = str_replace(array("\r","\n"),array(" "," ") , strip_tags(trim($_POST["nombre"])));
      $email    = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
