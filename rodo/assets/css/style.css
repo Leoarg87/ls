@@ -534,8 +534,9 @@ a{
   background-color: var(--color-primary);
 }
 .hr-bodas {
-  color: var(--color-primary);
+  color: #845a12;
   opacity: 1;
+  margin-top: 28px;
 }
 .foto-boda {
   object-fit: cover;
@@ -724,7 +725,12 @@ a{
   position: absolute;
   border-radius: inherit;
 }
-
+.hr-pack{
+  color: #845a12 !important;
+  width: 75%;
+  display: flex;
+  margin: 2rem auto;
+}
 /* SERVICIOS */
 @media (max-width: 1400px) {
   .titulo-opiniones {

@@ -24,43 +24,41 @@
         <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets/img/carousel/10.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
+                    <img src="assets/img/carousel/1.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel/b.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
+                </div>
+                
+                
+                <div class="carousel-item">
+                    <img src="assets/img/carousel/c.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel/f.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/carousel/e.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
                 </div>
                 <div class="carousel-item">
                     <img src="assets/img/carousel/12.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/carousel/14.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
-                </div>
-                <!-- <div class="carousel-item ">
-                    <img src="assets/img/carousel/1.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
-                </div> -->
-                <div class="carousel-item">
-                    <img src="assets/img/carousel/2.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
-                </div>
-                <div class="carousel-item">
                     <img src="assets/img/carousel/3.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/carousel/4.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/carousel/5.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/carousel/6.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
-                </div>
-                <div class="carousel-item">
-                    <img src="assets/img/carousel/7.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
                 </div>
                 <div class="carousel-item">
                     <img src="assets/img/carousel/8.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets/img/carousel/9.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
+                    <img src="assets/img/carousel/7.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
                 </div>
-
-
+                <div class="carousel-item">
+                    <img src="assets/img/carousel/5.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="assets/img/carousel/2.jpg" class="d-block w-100 img-fluid img-carousel" alt="Rodo eventos">
+                </div>
             </div>
 
         </div>
@@ -83,6 +81,10 @@
                 <a class="text-decoration-none cochesclasicos" href="coches-clasicos.php">
                     <img src="assets/img/coche.png" class="img-slick-1" style="min-height:150px;width:200px" alt="">
                     <h2 class="h2-carousel">Coches clásicos</h2>
+                </a>
+                <a class="text-decoration-none autobus" href="autobus.php">
+                    <img src="assets/img/van.png" class="img-slick-1" style="min-height:150px;width:200px" alt="">
+                    <h2 class="h2-carousel">Photobus</h2>
                 </a>
                 <a class="text-decoration-none shisas" href="shishas-vapers.php">
                     <img src="assets/img/shisha.png" class="img-slick-1" alt="">

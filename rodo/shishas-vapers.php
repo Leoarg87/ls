@@ -61,7 +61,7 @@
 
             </div>
             <div class="col-12 col-lg-8 mx-auto  row" >
-                <h3 class="h2-carousel fs-1  h1 mt-5">¿Qué incluye? </h3>
+                <h3 class="incluye text-center fs-1  h1 mt-5">¿Qué incluye? </h3>
 
                 <div class="col-12 col-md-6 col-lg-6 pt-5 ps-5 d-flex flex-column  mx-auto ">
                        <p class="p-home-lista pe-2">
@@ -101,9 +101,6 @@
                 <h5 class="text-center">
                     Haz que tu evento marque la diferencia
                 </h5>
-                <div class="w-auto bg-crema rounded-5 mt-5 d-none d-md-block">
-                <img src="assets/img/logo-png.png" alt="" class="img-fluid">
-                </div>
 
             </div>
 

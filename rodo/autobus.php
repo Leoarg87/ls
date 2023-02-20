@@ -28,7 +28,7 @@
             <h2 class="h2-carousel fs-1">Photobus</h2>
             <img src="assets/img/banner-photobus.jpg" class="img-fluid d-flex mx-auto my-5" alt="">
                 <p class="p-servicios text-start mt-5">
-                    Como si de una cabina fotográfica se tratara, el photobus es el complemento perfecto para que tu evento sea diferente, original y divertido
+                    Como si de una cabina fotográfica se tratara, el photobus es el complemento perfecto para que tu evento sea diferente, original y divertido.
 
                 </p>
                 <p class="p-servicios text-start">
@@ -38,7 +38,7 @@
             </div>
 
             <div class="col-12 col-lg-8 mx-auto  row">
-                <h3 class="h2-carousel fs-1  mt-5 h1 mb-3">
+                <h3 class="incluye text-center fs-1  mt-5 h1 mb-3">
 
                     ¿Qué incluye?
                 </h3>
@@ -84,7 +84,7 @@
                 <p class="p-servicios text-start">
 
                     El día del evento una persona de nuestro equipo se desplazará para hacer el montaje y coordinarlo todo y una vez acabado el servicio desmontar.
-                    <br><br>La furgoneta/photobus se puede usar como photocall, como elemento decorativo temático diseñado y construido para que los invitadas al evento puedan tomarse fotos con otros asistentes y crear recuerdos de tu dia
+                    <br><br>La furgoneta/photobus se puede usar como photocall, como elemento decorativo temático diseñado y construido para que los invitadas al evento puedan tomarse fotos con otros asistentes y crear recuerdos de tu dia.
                     <br><br>
                     o como fotomatón, Los invitados podrán hacerse fotos dentro de la furgo disfrazados con divertido atrezzo y así disfrutar al máximo del Photobus.
 

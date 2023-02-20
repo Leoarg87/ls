@@ -25,7 +25,7 @@
                 <hr class="hr-bodas">
             </div>
             <div class="col-8 col-lg-4 mb-5">
-                <h2 class="titulo1 text-uppercase text-center">BODAS</h2>
+                <h2 class="titulo1  text-center" style="font-family:'Daydream', sans-serif;font-size:40px;color:#845a12">Bodas</h2>
             </div>
             <div class="col-2 col-lg-4">
                 <hr class="hr-bodas">
@@ -81,7 +81,7 @@
                 <hr class="hr-bodas">
             </div>
             <div class="col-8 col-lg-4 mb-5">
-                <h2 class="titulo1 text-uppercase text-center">EVENTOS</h2>
+            <h2 class="titulo1  text-center" style="font-family:'Daydream', sans-serif;font-size:40px;color:#845a12">Eventos</h2>
             </div>
             <div class="col-2 col-lg-4">
                 <hr class="hr-bodas">

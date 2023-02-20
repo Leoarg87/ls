@@ -51,7 +51,7 @@
             </div>
             <div class="col-12 col-lg-8 row  mx-auto">
 
-            <h3 class="h2-carousel fs-1  mt-5 h1 mb-5">¿Qué incluye?</h6>
+            <h3 class="incluye text-center fs-1  mt-5 h1 mb-5">¿Qué incluye?</h6>
 
                 <div class="col-12 col-md-6 col-lg-6  ps-5 d-flex flex-column  mx-auto ">
                     <div class="lista d-flex flex-column flex-lg-row gap-3 justify-content-start">
@@ -214,24 +214,16 @@
             </div>
             <div class="">
                 <div class="card-bodas mx-4">
-                    <img src="assets/img/carousel/9.jpg" class="foto-boda img-fluid" alt="">
+                    <img src="assets/img/carousel/l.jpg" class="foto-boda img-fluid" alt="">
                 </div>
             </div>
-            <div class="">
-                <div class="card-bodas mx-4">
-                    <img src="assets/img/carousel/10.jpg" class="foto-boda img-fluid" alt="">
-                </div>
-            </div>
+            
             <div class="">
                 <div class="card-bodas mx-4">
                     <img src="assets/img/carousel/12.jpg" class="foto-boda img-fluid" alt="">
                 </div>
             </div>
-            <div class="">
-                <div class="card-bodas mx-4">
-                    <img src="assets/img/carousel/14.jpg" class="foto-boda img-fluid" alt="">
-                </div>
-            </div>
+            
 
         </div>
     </div>
