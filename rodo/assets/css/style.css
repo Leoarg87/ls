@@ -109,7 +109,7 @@ body {
 .titulo1 {
   color: #494c64;
   font-family: "Montserrat", Sans-serif;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 800;
 }
 .titulo2 {
@@ -134,7 +134,7 @@ body {
 }
 .p-home {
   color: var(--color-secondary);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 25px;
   font-family: "Source Sans Pro";
@@ -762,6 +762,11 @@ a{
 }
 
 @media (max-width: 767px) {
+  .h2-banner-solicita {
+    
+    font-size: 26px;
+    
+  }
   .slick-next{
     right:0;
   }
@@ -788,4 +793,18 @@ a{
   /* .fixed-top{
       max-width: 81%;
     } */
+    .banner-solicita{
+      max-height: 200px !important;
+      object-fit: cover;
+    }
+
+    .banner-solicita1{
+      max-height: 200px !important;
+      object-fit: cover;
+    }
+
+    .banner-solicita2{
+      max-height: 200px !important;
+      object-fit: cover;
+    }
 }

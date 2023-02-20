@@ -109,7 +109,7 @@
                 <img src="assets/img/fotomaton-1.png" class="img-fluid foto1" alt="">
             </div>
             <div class="col-12 col-lg-7 px-5 row pt-3 pt-lg-0 ">
-                <p class="p-home px-5">
+                <p class="p-home px-lg-5">
                     En <span class="fw-bold">rodo eventos</span> sabemos que no es fácil organizar un evento para que tus invitados se diviertan y lo hagan de verdad. Con nuestro servicio de fotomatón tendras todo lo que necesitas para conseguirlo.
 
                 </p>
@@ -198,14 +198,14 @@
     </div>
     <div class="container py-5">
         <div class="row">
-            <div class="col-12 col-md-4 hover justify-content-center">
+            <div class="col-12 col-lg-4 hover justify-content-center">
                 <i aria-hidden="true" class="far iconos fa-grin-tears d-flex justify-content-center py-3"></i>
                 <h2 class="titulo1 text-center">DIVERSIÓN</h2>
                 <p class="p-home text-center px-5">
                     La diversión está asegurada. <br> Dale el toque original y divertido que hará que tus invitados se lo pasen en grande.
                 </p>
             </div>
-            <div class="col-12 col-md-4 hover">
+            <div class="col-12 col-lg-4 hover">
                 <i aria-hidden="true" class="fas iconos fa-camera-retro d-flex justify-content-center py-3"></i>
                 <h2 class="titulo1 text-center">RECUERDOS</h2>
                 <p class="p-home text-center px-5">
@@ -215,7 +215,7 @@
 
                 </p>
             </div>
-            <div class="col-12 col-md-4 hover">
+            <div class="col-12 col-lg-4 hover">
                 <i aria-hidden="true" class="far iconos fa-heart d-flex justify-content-center py-3"></i>
                 <h2 class="titulo1 text-center">EMOCIÓN</h2>
                 <p class="p-home text-center px-5">
@@ -234,7 +234,7 @@
                 <div class="flip3D">
                     <div class="back d-flex justify-content-center flex-column">
                         <h2 class="text-center pt-5">Bodas</h2>
-                        <p class="text-center my-auto px-3">En Rodo Eventos sabemos que no es fácil organizar una boda para que tus invitados se diviertan y lo hagan de verdad. <br> La solución es fácil, contratando nuestro servicio de fotomatón, hará que tu boda sea diferente, divertida y muy original</p>
+                        <p class="text-center my-auto px-3"> Nuestro objetivo es hacer que tu boda sea aún más inolvidable, proporcionándote un servicio profesional y personalizado para que puedas disfrutar de la fiesta sin preocupaciones.</p>
                     </div>
                     <div class="front">
                         <img src="assets/img/boda.jpg" class="img-fluid w-100" alt="">
@@ -249,7 +249,7 @@
                 <div class="flip3D">
                     <div class="back d-flex justify-content-center flex-column">
                         <h2 class="text-center pt-5">Eventos </h2>
-                        <p class="text-center my-auto px-3">El fotomatón para eventos es una manera original de aportar algo diferente a los clásicos eventos y ferias de empresa, aportando un toque de distinción que os ayude a conseguir los mejores resultados y os permita mejorar vuestra reputación como empresa entre vuestros clientes.</p>
+                        <p class="text-center my-auto px-3"> Nuestro objetivo es hacer que tu evento sea aún más inolvidable, proporcionándote un servicio profesional y personalizado para que puedas disfrutar de la fiesta sin preocupaciones.</p>
                     </div>
                     <div class="front">
                         <img src="assets/img/eventos1.jpeg" class="img-fluid w-100" alt="">
@@ -262,7 +262,7 @@
                 <div class="flip3D">
                     <div class="back d-flex justify-content-center flex-column">
                         <h2 class="text-center pt-5">Plataforma 360</h2>
-                        <p class="text-center my-auto px-3">Sorprende a tus invitados con nuestra plataforma giratoria 360, crea videos original desde todos los ángulos, elige la velocidad, la música y el diseño que mas te guste. Hará de tu evento algo mágico.</p>
+                        <p class="text-center my-auto px-3">Sorprende a tus invitados con nuestra plataforma giratoria 360. Crea videos original desde todos los ángulos, elige la velocidad, la música y el diseño que mas te guste. <br> Hará de tu evento algo mágico.</p>
                     </div>
                     <div class="front">
                         <img src="assets/img/360.jpeg" class="img-fluid w-100" alt="">

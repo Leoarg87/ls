@@ -1,12 +1,12 @@
 <div class="container-fluid bg-primary py-5">
     <div class="container py-lg-5 py-0">
         <div class="row ">
-            <div class="col-12 col-md-4 ">
+            <div class="col-12 col-lg-4 ">
                 <h2 class="h2-footer text-center text-lg-start">RODO EVENTOS</h2>
-                <p class="p-footer">Ofrecemos servicios de fotomatón y photocall para bodas, cumpleaños, comuniones, bautizos, cenas de empresa y eventos corporativos. <br> En Málaga, Granada, Córdoba, Jaén, Murcia y muchos más.</p>
+                <p class="p-footer">Ofrecemos servicios de fotomatón ,plataforma giratoria 360º, photocall y Photobus o campers con fotomatón para bodas, cumpleaños, comuniones, bautizos, cenas de empresa y eventos corporativos. <br> En Málaga, Granada, Córdoba, Jaén, Murcia y muchos más.</p>
                
             </div>
-            <div class="col-6 mx-auto col-md-3 pt-3 pt-lg-0">
+            <div class="col-4 mx-auto col-lg-3 pt-3 pt-lg-0">
                 <h2 class="h2-footer text-center">INFORMACIÓN</h2>
                 <ul class="ul-footer">
                     <li>
@@ -16,27 +16,30 @@
                         <a class="text-decoration-none link-footer" href="eventos.php">Eventos</a>
                     </li>
                     <li>
-                        <a class="text-decoration-none link-footer" href="servicios.php#fotomaton360">Plataforma 360<sup>º</sup></a>
+                        <a class="text-decoration-none link-footer" href="plataforma.php">Plataforma 360<sup>º</sup></a>
                     </li>
                     <li>
-                        <a class="text-decoration-none link-footer" href="servicios.php#fotomaton">Fotomatón</a>
+                        <a class="text-decoration-none link-footer" href="fotomaton.php">Fotomatón</a>
                     </li>
                     <li>
-                        <a class="text-decoration-none link-footer" href="/servicios.php#candybar">Candy Bar</a>
+                        <a class="text-decoration-none link-footer" href="candybar.php">Candy Bar</a>
                     </li>
                     <li>
-                        <a class="text-decoration-none link-footer" href="/servicios.php#cochesclasicos">Coches Clásicos</a>
+                        <a class="text-decoration-none link-footer" href="coches-clasicos.php">Coches Clásicos</a>
                     </li>
                     <li>
-                        <a class="text-decoration-none link-footer" href="/servicios.php#shisas">Shishas & Vapers</a>
+                        <a class="text-decoration-none link-footer" href="autobus.php">Photobus</a>
                     </li>
                     <li>
-                        <a class="text-decoration-none link-footer" href="/servicios.php#neones">Neones</a>
+                        <a class="text-decoration-none link-footer" href="shishas-vapers">Shishas & Vapers</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none link-footer" href="neones.php">Neones</a>
                     </li>
                 </ul>
 
             </div>
-            <div class="col-6 col-md-2 pt-3 pt-lg-0">
+            <div class="col-4 col-lg-2 pt-3 pt-lg-0">
                 <h2 class="h2-footer text-center">SIGUENOS</h2>
                 <div class="d-flex justify-content-center gap-5 w-100">
 
@@ -55,7 +58,7 @@
                 </script>
 
             </div>
-            <div class="col-12 col-md-3 pt-3 pt-lg-0">
+            <div class="col-4 col-md-3 pt-3 pt-lg-0">
                 <h2 class="h2-footer text-center">CONTACTA</h2>
                 <div class="d-flex flex-column justify-content-center align-items-center gap-2  ">
 
